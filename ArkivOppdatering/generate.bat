@@ -1,0 +1,1 @@
+svcutil http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/giArkivOppdatering20120131.wsdl /serializer:XmlSerializer
