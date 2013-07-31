@@ -1,0 +1,1 @@
+svcutil http://rep.geointegrasjon.no/Arkiv/Innsyn/xml.wsdl/2012.01.31/giArkivInnsyn20120131.wsdl /serializer:XmlSerializer /n:*,ArkivInnsyn

@@ -1,0 +1,1 @@
+svcutil http://rep.geointegrasjon.no/Sak/Faser/xml.wsdl/2012.01.31/giSakFaser20120131.wsdl /serializer:XmlSerializer /n:*,SakFaser
