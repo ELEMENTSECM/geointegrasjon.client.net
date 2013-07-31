@@ -8,6393 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Runtime.Serialization.ContractNamespaceAttribute("http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", ClrNamespace="rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31")]
-
-
-
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ServiceModel.ServiceContractAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", ConfigurationName="SakArkivOppdateringPort")]
-public interface SakArkivOppdateringPort
-{
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eTilleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettSaksmappeTilleggsinformasjonResponse SlettSaksmappeTilleggsinformasjon(SlettSaksmappeTilleggsinformasjon request);
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
-        "eMerknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettSaksmappeMerknadResponse SlettSaksmappeMerknad(SlettSaksmappeMerknad request);
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostTilleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettJournalpostTilleggsinformasjonResponse SlettJournalpostTilleggsinformasjon(SlettJournalpostTilleggsinformasjon request);
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
-        "ostMerknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettJournalpostMerknadResponse SlettJournalpostMerknad(SlettJournalpostMerknad request);
-    
-    // CODEGEN: Parameter 'tilleggsinfo' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
-        "lleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NySaksmappeTilleggsinformasjonResponse NySaksmappeTilleggsinformasjon(NySaksmappeTilleggsinformasjon request);
-    
-    // CODEGEN: Parameter 'merknad' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
-        "rknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NySaksmappeMerknadResponse NySaksmappeMerknad(NySaksmappeMerknad request);
-    
-    // CODEGEN: Parameter 'tilleggsinfo' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Tilleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyJournalpostTilleggsinformasjonResponse NyJournalpostTilleggsinformasjon(NyJournalpostTilleggsinformasjon request);
-    
-    // CODEGEN: Parameter 'merknad' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "Merknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyJournalpostMerknadResponse NyJournalpostMerknad(NyJournalpostMerknad request);
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
-        "ing", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettAvskrivningResponse SlettAvskrivning(SlettAvskrivning request);
-    
-    // CODEGEN: Parameter 'avskrivning' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
-        "", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyAvskrivningResponse NyAvskrivning(NyAvskrivning request);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostStatus", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    void OppdaterJournalpostStatus(Journalstatus journalstatus, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostEksternNoekkel", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Journalpost OppdaterJournalpostEksternNoekkel(EksternNoekkel nokkel, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Dokument NyDokument(Dokument dokument, bool returnerFil, ArkivKontekst kontekst);
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
-        "ndansepart", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettKorrespondansepartResponse SlettKorrespondansepart(SlettKorrespondansepart request);
-    
-    // CODEGEN: Parameter 'part' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
-        "nsepart", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyKorrespondansepartResponse NyKorrespondansepart(NyKorrespondansepart request);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
-        "alpostAnsvarlig", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Journalpost OppdaterJournalpostAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
-        "", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Journalpost NyJournalpost(Journalpost journalpost, ArkivKontekst kontekst);
-    
-    // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "sterUnderArbeid", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    FinnJournalposterUnderArbeidResponse FinnJournalposterUnderArbeid(FinnJournalposterUnderArbeid request);
-    
-    // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
-        "stRestanser", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    FinnJournalpostRestanserResponse FinnJournalpostRestanser(FinnJournalpostRestanser request);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    void OppdaterPlan(NasjonalArealplanId planid, Saksnoekkel saksnokkel, ArkivKontekst kontekst);
-    
-    // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
-        "", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettSakspartResponse SlettSakspart(SlettSakspart request);
-    
-    // CODEGEN: Parameter 'sakspart' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NySakspartResponse NySakspart(NySakspart request);
-    
-    // CODEGEN: Parameter 'posisjon' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettPunktResponse SlettPunkt(SlettPunkt request);
-    
-    // CODEGEN: Parameter 'posisjon' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyPunktResponse NyPunkt(NyPunkt request);
-    
-    // CODEGEN: Parameter 'bygninger' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettBygningResponse SlettBygning(SlettBygning request);
-    
-    // CODEGEN: Parameter 'bygninger' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyBygningResponse NyBygning(NyBygning request);
-    
-    // CODEGEN: Parameter 'matrikkelnr' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
-        "lnummer", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    SlettMatrikkelnummerResponse SlettMatrikkelnummer(SlettMatrikkelnummer request);
-    
-    // CODEGEN: Parameter 'matrikkelnr' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
-        "mmer", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    NyMatrikkelnummerResponse NyMatrikkelnummer(NyMatrikkelnummer request);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Ansvarlig", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Saksmappe OppdaterMappeAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, Saksnoekkel saksnokkel, ArkivKontekst kontekst);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "EksternNoekkel", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Saksmappe OppdaterMappeEksternNoekkel(EksternNoekkel nokkel, Saksnoekkel saksnokkel, ArkivKontekst kontekst);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
-        "Status", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Saksmappe OppdaterMappeStatus(Saksstatus saksstatuskode, Saksnoekkel saksnokkel, ArkivKontekst kontekst);
-    
-    [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", ReplyAction="*")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.FaultContractAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.ServiceModel.XmlSerializerFormatAttribute()]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
-    [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
-    [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-    Saksmappe NySaksmappe(Saksmappe mappe, ArkivKontekst kontekst);
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(SakSystemId))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(SakEksternNoekkel))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Saksnummer))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Felles/xml.schema/2012.01.31")]
-public partial class Saksnoekkel
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Klasse
-{
-    
-    private string rekkefoelgeField;
-    
-    private Klassifikasjonssystem klassifikasjonssystemField;
-    
-    private string klasseIDField;
-    
-    private bool skjermetKlasseField;
-    
-    private bool skjermetKlasseFieldSpecified;
-    
-    private string ledetekstField;
-    
-    private string tittelField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string rekkefoelge
-    {
-        get
-        {
-            return this.rekkefoelgeField;
-        }
-        set
-        {
-            this.rekkefoelgeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public Klassifikasjonssystem klassifikasjonssystem
-    {
-        get
-        {
-            return this.klassifikasjonssystemField;
-        }
-        set
-        {
-            this.klassifikasjonssystemField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string klasseID
-    {
-        get
-        {
-            return this.klasseIDField;
-        }
-        set
-        {
-            this.klasseIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public bool skjermetKlasse
-    {
-        get
-        {
-            return this.skjermetKlasseField;
-        }
-        set
-        {
-            this.skjermetKlasseField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool skjermetKlasseSpecified
-    {
-        get
-        {
-            return this.skjermetKlasseFieldSpecified;
-        }
-        set
-        {
-            this.skjermetKlasseFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public string ledetekst
-    {
-        get
-        {
-            return this.ledetekstField;
-        }
-        set
-        {
-            this.ledetekstField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public string tittel
-    {
-        get
-        {
-            return this.tittelField;
-        }
-        set
-        {
-            this.tittelField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Klassifikasjonssystem : Kode
-{
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Landkode))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(EnkelAdressetype))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Variantformat))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(TilknyttetRegistreringSom))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Format))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumentstatus))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumenttype))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Tilgangsrestriksjon))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(SkjermingsHjemmel))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(SkjermingOpphorerAksjon))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Saksstatus))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Mappetype))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Korrespondanseparttype))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Klassifikasjonssystem))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Kassasjonsvedtak))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalstatus))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalposttype))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalenhet))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Informasjonstype))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Forsendelsesmaate))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumentmedium))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Avskrivningsmaate))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Arkivdel))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(SakspartRolle))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(PersonidentifikatorType))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(KoordinatsystemKode))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kodeliste/xml.schema/2012.01.31")]
-public partial class Kode
-{
-    
-    private string kodeverdiField;
-    
-    private string kodebeskrivelseField;
-    
-    private bool erGyldigField;
-    
-    private bool erGyldigFieldSpecified;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string kodeverdi
-    {
-        get
-        {
-            return this.kodeverdiField;
-        }
-        set
-        {
-            this.kodeverdiField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string kodebeskrivelse
-    {
-        get
-        {
-            return this.kodebeskrivelseField;
-        }
-        set
-        {
-            this.kodebeskrivelseField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public bool erGyldig
-    {
-        get
-        {
-            return this.erGyldigField;
-        }
-        set
-        {
-            this.erGyldigField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool erGyldigSpecified
-    {
-        get
-        {
-            return this.erGyldigFieldSpecified;
-        }
-        set
-        {
-            this.erGyldigFieldSpecified = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class Landkode : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class EnkelAdressetype : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Variantformat : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class TilknyttetRegistreringSom : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Format : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Dokumentstatus : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Dokumenttype : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Tilgangsrestriksjon : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class SkjermingsHjemmel : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class SkjermingOpphorerAksjon : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Saksstatus : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Mappetype : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Korrespondanseparttype : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Kassasjonsvedtak : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Journalstatus : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Journalposttype : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Journalenhet : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Informasjonstype : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Forsendelsesmaate : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Dokumentmedium : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Avskrivningsmaate : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Arkivdel : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class SakspartRolle : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
-public partial class PersonidentifikatorType : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class KoordinatsystemKode : Kode
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Saksmappe
-{
-    
-    private string systemIDField;
-    
-    private Saksnummer saksnrField;
-    
-    private Mappetype mappetypeField;
-    
-    private System.DateTime saksdatoField;
-    
-    private bool saksdatoFieldSpecified;
-    
-    private string tittelField;
-    
-    private string offentligTittelField;
-    
-    private bool skjermetTittelField;
-    
-    private bool skjermetTittelFieldSpecified;
-    
-    private Skjerming skjermingField;
-    
-    private Saksstatus saksstatusField;
-    
-    private Dokumentmedium dokumentmediumField;
-    
-    private Arkivdel referanseArkivdelField;
-    
-    private Journalenhet journalenhetField;
-    
-    private string bevaringstidField;
-    
-    private Kassasjonsvedtak kassasjonsvedtakField;
-    
-    private System.DateTime kassasjonsdatoField;
-    
-    private bool kassasjonsdatoFieldSpecified;
-    
-    private string prosjektField;
-    
-    private string administrativEnhetInitField;
-    
-    private string administrativEnhetField;
-    
-    private string saksansvarligInitField;
-    
-    private string saksansvarligField;
-    
-    private string tilgangsgruppeNavnField;
-    
-    private Matrikkelnummer[] matrikkelnummerField;
-    
-    private Klasse[] klasseField;
-    
-    private Sakspart[] sakspartField;
-    
-    private Punkt[] punktField;
-    
-    private Tilleggsinformasjon[] tilleggsinformasjonField;
-    
-    private ByggIdent[] byggIdentField;
-    
-    private EksternNoekkel referanseEksternNoekkelField;
-    
-    private Merknad[] merknaderField;
-    
-    private NasjonalArealplanId planIdentField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public Saksnummer saksnr
-    {
-        get
-        {
-            return this.saksnrField;
-        }
-        set
-        {
-            this.saksnrField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public Mappetype mappetype
-    {
-        get
-        {
-            return this.mappetypeField;
-        }
-        set
-        {
-            this.mappetypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public System.DateTime saksdato
-    {
-        get
-        {
-            return this.saksdatoField;
-        }
-        set
-        {
-            this.saksdatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool saksdatoSpecified
-    {
-        get
-        {
-            return this.saksdatoFieldSpecified;
-        }
-        set
-        {
-            this.saksdatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public string tittel
-    {
-        get
-        {
-            return this.tittelField;
-        }
-        set
-        {
-            this.tittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public string offentligTittel
-    {
-        get
-        {
-            return this.offentligTittelField;
-        }
-        set
-        {
-            this.offentligTittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public bool skjermetTittel
-    {
-        get
-        {
-            return this.skjermetTittelField;
-        }
-        set
-        {
-            this.skjermetTittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool skjermetTittelSpecified
-    {
-        get
-        {
-            return this.skjermetTittelFieldSpecified;
-        }
-        set
-        {
-            this.skjermetTittelFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-    public Skjerming skjerming
-    {
-        get
-        {
-            return this.skjermingField;
-        }
-        set
-        {
-            this.skjermingField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-    public Saksstatus saksstatus
-    {
-        get
-        {
-            return this.saksstatusField;
-        }
-        set
-        {
-            this.saksstatusField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-    public Dokumentmedium dokumentmedium
-    {
-        get
-        {
-            return this.dokumentmediumField;
-        }
-        set
-        {
-            this.dokumentmediumField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-    public Arkivdel referanseArkivdel
-    {
-        get
-        {
-            return this.referanseArkivdelField;
-        }
-        set
-        {
-            this.referanseArkivdelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-    public Journalenhet journalenhet
-    {
-        get
-        {
-            return this.journalenhetField;
-        }
-        set
-        {
-            this.journalenhetField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-    public string bevaringstid
-    {
-        get
-        {
-            return this.bevaringstidField;
-        }
-        set
-        {
-            this.bevaringstidField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=13)]
-    public Kassasjonsvedtak kassasjonsvedtak
-    {
-        get
-        {
-            return this.kassasjonsvedtakField;
-        }
-        set
-        {
-            this.kassasjonsvedtakField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=14)]
-    public System.DateTime kassasjonsdato
-    {
-        get
-        {
-            return this.kassasjonsdatoField;
-        }
-        set
-        {
-            this.kassasjonsdatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool kassasjonsdatoSpecified
-    {
-        get
-        {
-            return this.kassasjonsdatoFieldSpecified;
-        }
-        set
-        {
-            this.kassasjonsdatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=15)]
-    public string prosjekt
-    {
-        get
-        {
-            return this.prosjektField;
-        }
-        set
-        {
-            this.prosjektField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=16)]
-    public string administrativEnhetInit
-    {
-        get
-        {
-            return this.administrativEnhetInitField;
-        }
-        set
-        {
-            this.administrativEnhetInitField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=17)]
-    public string administrativEnhet
-    {
-        get
-        {
-            return this.administrativEnhetField;
-        }
-        set
-        {
-            this.administrativEnhetField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=18)]
-    public string saksansvarligInit
-    {
-        get
-        {
-            return this.saksansvarligInitField;
-        }
-        set
-        {
-            this.saksansvarligInitField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=19)]
-    public string saksansvarlig
-    {
-        get
-        {
-            return this.saksansvarligField;
-        }
-        set
-        {
-            this.saksansvarligField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=20)]
-    public string tilgangsgruppeNavn
-    {
-        get
-        {
-            return this.tilgangsgruppeNavnField;
-        }
-        set
-        {
-            this.tilgangsgruppeNavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=21)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
-    public Matrikkelnummer[] Matrikkelnummer
-    {
-        get
-        {
-            return this.matrikkelnummerField;
-        }
-        set
-        {
-            this.matrikkelnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=22)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Klasse[] klasse
-    {
-        get
-        {
-            return this.klasseField;
-        }
-        set
-        {
-            this.klasseField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=23)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Sakspart[] sakspart
-    {
-        get
-        {
-            return this.sakspartField;
-        }
-        set
-        {
-            this.sakspartField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=24)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31", IsNullable=false)]
-    public Punkt[] Punkt
-    {
-        get
-        {
-            return this.punktField;
-        }
-        set
-        {
-            this.punktField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=25)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Tilleggsinformasjon[] tilleggsinformasjon
-    {
-        get
-        {
-            return this.tilleggsinformasjonField;
-        }
-        set
-        {
-            this.tilleggsinformasjonField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=26)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
-    public ByggIdent[] ByggIdent
-    {
-        get
-        {
-            return this.byggIdentField;
-        }
-        set
-        {
-            this.byggIdentField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=27)]
-    public EksternNoekkel referanseEksternNoekkel
-    {
-        get
-        {
-            return this.referanseEksternNoekkelField;
-        }
-        set
-        {
-            this.referanseEksternNoekkelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=28)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Merknad[] merknader
-    {
-        get
-        {
-            return this.merknaderField;
-        }
-        set
-        {
-            this.merknaderField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=29)]
-    public NasjonalArealplanId planIdent
-    {
-        get
-        {
-            return this.planIdentField;
-        }
-        set
-        {
-            this.planIdentField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Felles/xml.schema/2012.01.31")]
-public partial class Saksnummer : Saksnoekkel
-{
-    
-    private string saksaarField;
-    
-    private string sakssekvensnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-    public string saksaar
-    {
-        get
-        {
-            return this.saksaarField;
-        }
-        set
-        {
-            this.saksaarField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
-    public string sakssekvensnummer
-    {
-        get
-        {
-            return this.sakssekvensnummerField;
-        }
-        set
-        {
-            this.sakssekvensnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Skjerming
-{
-    
-    private Tilgangsrestriksjon tilgangsrestriksjonField;
-    
-    private string skjermingshjemmelField;
-    
-    private System.DateTime skjermingOpphoererDatoField;
-    
-    private bool skjermingOpphoererDatoFieldSpecified;
-    
-    private SkjermingOpphorerAksjon skjermingOpphoererAksjonField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public Tilgangsrestriksjon tilgangsrestriksjon
-    {
-        get
-        {
-            return this.tilgangsrestriksjonField;
-        }
-        set
-        {
-            this.tilgangsrestriksjonField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string skjermingshjemmel
-    {
-        get
-        {
-            return this.skjermingshjemmelField;
-        }
-        set
-        {
-            this.skjermingshjemmelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public System.DateTime skjermingOpphoererDato
-    {
-        get
-        {
-            return this.skjermingOpphoererDatoField;
-        }
-        set
-        {
-            this.skjermingOpphoererDatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool skjermingOpphoererDatoSpecified
-    {
-        get
-        {
-            return this.skjermingOpphoererDatoFieldSpecified;
-        }
-        set
-        {
-            this.skjermingOpphoererDatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public SkjermingOpphorerAksjon skjermingOpphoererAksjon
-    {
-        get
-        {
-            return this.skjermingOpphoererAksjonField;
-        }
-        set
-        {
-            this.skjermingOpphoererAksjonField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31")]
-public partial class Matrikkelnummer
-{
-    
-    private string kommunenummerField;
-    
-    private string gaardsnummerField;
-    
-    private string bruksnummerField;
-    
-    private string festenummerField;
-    
-    private string seksjonsnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string kommunenummer
-    {
-        get
-        {
-            return this.kommunenummerField;
-        }
-        set
-        {
-            this.kommunenummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
-    public string gaardsnummer
-    {
-        get
-        {
-            return this.gaardsnummerField;
-        }
-        set
-        {
-            this.gaardsnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=2)]
-    public string bruksnummer
-    {
-        get
-        {
-            return this.bruksnummerField;
-        }
-        set
-        {
-            this.bruksnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=3)]
-    public string festenummer
-    {
-        get
-        {
-            return this.festenummerField;
-        }
-        set
-        {
-            this.festenummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=4)]
-    public string seksjonsnummer
-    {
-        get
-        {
-            return this.seksjonsnummerField;
-        }
-        set
-        {
-            this.seksjonsnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Sakspart
-{
-    
-    private string systemIDField;
-    
-    private bool skjermetSakspartField;
-    
-    private bool skjermetSakspartFieldSpecified;
-    
-    private string kortnavnField;
-    
-    private string kontaktpersonField;
-    
-    private SakspartRolle sakspartRolleField;
-    
-    private string merknadField;
-    
-    private Kontakt kontaktField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public bool skjermetSakspart
-    {
-        get
-        {
-            return this.skjermetSakspartField;
-        }
-        set
-        {
-            this.skjermetSakspartField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool skjermetSakspartSpecified
-    {
-        get
-        {
-            return this.skjermetSakspartFieldSpecified;
-        }
-        set
-        {
-            this.skjermetSakspartFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string kortnavn
-    {
-        get
-        {
-            return this.kortnavnField;
-        }
-        set
-        {
-            this.kortnavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public string kontaktperson
-    {
-        get
-        {
-            return this.kontaktpersonField;
-        }
-        set
-        {
-            this.kontaktpersonField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public SakspartRolle sakspartRolle
-    {
-        get
-        {
-            return this.sakspartRolleField;
-        }
-        set
-        {
-            this.sakspartRolleField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public string merknad
-    {
-        get
-        {
-            return this.merknadField;
-        }
-        set
-        {
-            this.merknadField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public Kontakt Kontakt
-    {
-        get
-        {
-            return this.kontaktField;
-        }
-        set
-        {
-            this.kontaktField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Person))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Organisasjon))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
-public partial class Kontakt
-{
-    
-    private string navnField;
-    
-    private EnkelAdresse[] adresserField;
-    
-    private ElektroniskAdresse[] elektroniskeAdresserField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string navn
-    {
-        get
-        {
-            return this.navnField;
-        }
-        set
-        {
-            this.navnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31", IsNullable=false)]
-    public EnkelAdresse[] adresser
-    {
-        get
-        {
-            return this.adresserField;
-        }
-        set
-        {
-            this.adresserField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31", IsNullable=false)]
-    public ElektroniskAdresse[] elektroniskeAdresser
-    {
-        get
-        {
-            return this.elektroniskeAdresserField;
-        }
-        set
-        {
-            this.elektroniskeAdresserField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class EnkelAdresse
-{
-    
-    private EnkelAdressetype adressetypeField;
-    
-    private string adresselinje1Field;
-    
-    private string adresselinje2Field;
-    
-    private PostadministrativeOmraader postadresseField;
-    
-    private Landkode landkodeField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public EnkelAdressetype adressetype
-    {
-        get
-        {
-            return this.adressetypeField;
-        }
-        set
-        {
-            this.adressetypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string adresselinje1
-    {
-        get
-        {
-            return this.adresselinje1Field;
-        }
-        set
-        {
-            this.adresselinje1Field = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string adresselinje2
-    {
-        get
-        {
-            return this.adresselinje2Field;
-        }
-        set
-        {
-            this.adresselinje2Field = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public PostadministrativeOmraader postadresse
-    {
-        get
-        {
-            return this.postadresseField;
-        }
-        set
-        {
-            this.postadresseField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public Landkode landkode
-    {
-        get
-        {
-            return this.landkodeField;
-        }
-        set
-        {
-            this.landkodeField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class PostadministrativeOmraader
-{
-    
-    private string postnummerField;
-    
-    private string poststedField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string postnummer
-    {
-        get
-        {
-            return this.postnummerField;
-        }
-        set
-        {
-            this.postnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string poststed
-    {
-        get
-        {
-            return this.poststedField;
-        }
-        set
-        {
-            this.poststedField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Meldingsboks))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Telefon))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Faks))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Epost))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class ElektroniskAdresse
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class Meldingsboks : ElektroniskAdresse
-{
-    
-    private string tilbyderField;
-    
-    private string meldingsboksadresseField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string tilbyder
-    {
-        get
-        {
-            return this.tilbyderField;
-        }
-        set
-        {
-            this.tilbyderField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string meldingsboksadresse
-    {
-        get
-        {
-            return this.meldingsboksadresseField;
-        }
-        set
-        {
-            this.meldingsboksadresseField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class Telefon : ElektroniskAdresse
-{
-    
-    private string telefonnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string telefonnummer
-    {
-        get
-        {
-            return this.telefonnummerField;
-        }
-        set
-        {
-            this.telefonnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class Faks : ElektroniskAdresse
-{
-    
-    private string faksnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string faksnummer
-    {
-        get
-        {
-            return this.faksnummerField;
-        }
-        set
-        {
-            this.faksnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
-public partial class Epost : ElektroniskAdresse
-{
-    
-    private string epostadresseField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string epostadresse
-    {
-        get
-        {
-            return this.epostadresseField;
-        }
-        set
-        {
-            this.epostadresseField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
-public partial class Person : Kontakt
-{
-    
-    private Personidentifikator personidField;
-    
-    private string etternavnField;
-    
-    private string fornavnField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public Personidentifikator personid
-    {
-        get
-        {
-            return this.personidField;
-        }
-        set
-        {
-            this.personidField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string etternavn
-    {
-        get
-        {
-            return this.etternavnField;
-        }
-        set
-        {
-            this.etternavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string fornavn
-    {
-        get
-        {
-            return this.fornavnField;
-        }
-        set
-        {
-            this.fornavnField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
-public partial class Personidentifikator
-{
-    
-    private string personidentifikatorNrField;
-    
-    private PersonidentifikatorType personidentifikatorTypeField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string personidentifikatorNr
-    {
-        get
-        {
-            return this.personidentifikatorNrField;
-        }
-        set
-        {
-            this.personidentifikatorNrField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public PersonidentifikatorType personidentifikatorType
-    {
-        get
-        {
-            return this.personidentifikatorTypeField;
-        }
-        set
-        {
-            this.personidentifikatorTypeField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
-public partial class Organisasjon : Kontakt
-{
-    
-    private string organisasjonsnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string organisasjonsnummer
-    {
-        get
-        {
-            return this.organisasjonsnummerField;
-        }
-        set
-        {
-            this.organisasjonsnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Punkt : Geometri
-{
-    
-    private Koordinat posisjonField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public Koordinat posisjon
-    {
-        get
-        {
-            return this.posisjonField;
-        }
-        set
-        {
-            this.posisjonField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Koordinat
-{
-    
-    private double xField;
-    
-    private double yField;
-    
-    private double zField;
-    
-    private bool zFieldSpecified;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public double x
-    {
-        get
-        {
-            return this.xField;
-        }
-        set
-        {
-            this.xField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public double y
-    {
-        get
-        {
-            return this.yField;
-        }
-        set
-        {
-            this.yField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public double z
-    {
-        get
-        {
-            return this.zField;
-        }
-        set
-        {
-            this.zField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool zSpecified
-    {
-        get
-        {
-            return this.zFieldSpecified;
-        }
-        set
-        {
-            this.zFieldSpecified = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Bbox))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Punkt))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Kurve))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Flate))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Geometri
-{
-    
-    private KoordinatsystemKode koordinatsystemField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public KoordinatsystemKode koordinatsystem
-    {
-        get
-        {
-            return this.koordinatsystemField;
-        }
-        set
-        {
-            this.koordinatsystemField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Bbox : Geometri
-{
-    
-    private Koordinat nedreVenstreField;
-    
-    private Koordinat oevreHoeyreField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public Koordinat nedreVenstre
-    {
-        get
-        {
-            return this.nedreVenstreField;
-        }
-        set
-        {
-            this.nedreVenstreField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public Koordinat oevreHoeyre
-    {
-        get
-        {
-            return this.oevreHoeyreField;
-        }
-        set
-        {
-            this.oevreHoeyreField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Kurve : Geometri
-{
-    
-    private Koordinat[] linjeField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Koordinat[] linje
-    {
-        get
-        {
-            return this.linjeField;
-        }
-        set
-        {
-            this.linjeField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Flate : Geometri
-{
-    
-    private Ring[] indreAvgrensningField;
-    
-    private Ring ytreAvgrensningField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Ring[] indreAvgrensning
-    {
-        get
-        {
-            return this.indreAvgrensningField;
-        }
-        set
-        {
-            this.indreAvgrensningField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public Ring ytreAvgrensning
-    {
-        get
-        {
-            return this.ytreAvgrensningField;
-        }
-        set
-        {
-            this.ytreAvgrensningField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
-public partial class Ring
-{
-    
-    private Koordinat[] lukketKurveField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Koordinat[] lukketKurve
-    {
-        get
-        {
-            return this.lukketKurveField;
-        }
-        set
-        {
-            this.lukketKurveField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Tilleggsinformasjon
-{
-    
-    private string systemIDField;
-    
-    private string rekkefoelgeField;
-    
-    private Informasjonstype informasjonstypeField;
-    
-    private Tilgangsrestriksjon tilgangsrestriksjonField;
-    
-    private System.DateTime oppbevaresTilDatoField;
-    
-    private bool oppbevaresTilDatoFieldSpecified;
-    
-    private string informasjonField;
-    
-    private string tilgangsgruppeNavnField;
-    
-    private System.DateTime registrertDatoField;
-    
-    private bool registrertDatoFieldSpecified;
-    
-    private string registrertAvField;
-    
-    private string registrertAvInitField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string rekkefoelge
-    {
-        get
-        {
-            return this.rekkefoelgeField;
-        }
-        set
-        {
-            this.rekkefoelgeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public Informasjonstype informasjonstype
-    {
-        get
-        {
-            return this.informasjonstypeField;
-        }
-        set
-        {
-            this.informasjonstypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public Tilgangsrestriksjon tilgangsrestriksjon
-    {
-        get
-        {
-            return this.tilgangsrestriksjonField;
-        }
-        set
-        {
-            this.tilgangsrestriksjonField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public System.DateTime oppbevaresTilDato
-    {
-        get
-        {
-            return this.oppbevaresTilDatoField;
-        }
-        set
-        {
-            this.oppbevaresTilDatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool oppbevaresTilDatoSpecified
-    {
-        get
-        {
-            return this.oppbevaresTilDatoFieldSpecified;
-        }
-        set
-        {
-            this.oppbevaresTilDatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public string informasjon
-    {
-        get
-        {
-            return this.informasjonField;
-        }
-        set
-        {
-            this.informasjonField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public string tilgangsgruppeNavn
-    {
-        get
-        {
-            return this.tilgangsgruppeNavnField;
-        }
-        set
-        {
-            this.tilgangsgruppeNavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-    public System.DateTime registrertDato
-    {
-        get
-        {
-            return this.registrertDatoField;
-        }
-        set
-        {
-            this.registrertDatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool registrertDatoSpecified
-    {
-        get
-        {
-            return this.registrertDatoFieldSpecified;
-        }
-        set
-        {
-            this.registrertDatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-    public string registrertAv
-    {
-        get
-        {
-            return this.registrertAvField;
-        }
-        set
-        {
-            this.registrertAvField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-    public string registrertAvInit
-    {
-        get
-        {
-            return this.registrertAvInitField;
-        }
-        set
-        {
-            this.registrertAvInitField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31")]
-public partial class ByggIdent
-{
-    
-    private string bygningsNummerField;
-    
-    private string endringsloepenummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-    public string bygningsNummer
-    {
-        get
-        {
-            return this.bygningsNummerField;
-        }
-        set
-        {
-            this.bygningsNummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
-    public string endringsloepenummer
-    {
-        get
-        {
-            return this.endringsloepenummerField;
-        }
-        set
-        {
-            this.endringsloepenummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class EksternNoekkel
-{
-    
-    private string fagsystemField;
-    
-    private string noekkelField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string fagsystem
-    {
-        get
-        {
-            return this.fagsystemField;
-        }
-        set
-        {
-            this.fagsystemField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string noekkel
-    {
-        get
-        {
-            return this.noekkelField;
-        }
-        set
-        {
-            this.noekkelField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Merknad
-{
-    
-    private string systemIDField;
-    
-    private string merknadstekstField;
-    
-    private string merknadstypeField;
-    
-    private System.DateTime merknadsdatoField;
-    
-    private bool merknadsdatoFieldSpecified;
-    
-    private string merknadRegistrertAvField;
-    
-    private string merknadRegistrertAvInitField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string merknadstekst
-    {
-        get
-        {
-            return this.merknadstekstField;
-        }
-        set
-        {
-            this.merknadstekstField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string merknadstype
-    {
-        get
-        {
-            return this.merknadstypeField;
-        }
-        set
-        {
-            this.merknadstypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public System.DateTime merknadsdato
-    {
-        get
-        {
-            return this.merknadsdatoField;
-        }
-        set
-        {
-            this.merknadsdatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool merknadsdatoSpecified
-    {
-        get
-        {
-            return this.merknadsdatoFieldSpecified;
-        }
-        set
-        {
-            this.merknadsdatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public string merknadRegistrertAv
-    {
-        get
-        {
-            return this.merknadRegistrertAvField;
-        }
-        set
-        {
-            this.merknadRegistrertAvField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public string merknadRegistrertAvInit
-    {
-        get
-        {
-            return this.merknadRegistrertAvInitField;
-        }
-        set
-        {
-            this.merknadRegistrertAvInitField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
-public partial class NasjonalArealplanId
-{
-    
-    private Administrativenhetsnummer nummerField;
-    
-    private string planidentifikasjonField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public Administrativenhetsnummer nummer
-    {
-        get
-        {
-            return this.nummerField;
-        }
-        set
-        {
-            this.nummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string planidentifikasjon
-    {
-        get
-        {
-            return this.planidentifikasjonField;
-        }
-        set
-        {
-            this.planidentifikasjonField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Stat))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Kommune))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Fylke))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
-public partial class Administrativenhetsnummer
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
-public partial class Stat : Administrativenhetsnummer
-{
-    
-    private string landskodeField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string landskode
-    {
-        get
-        {
-            return this.landskodeField;
-        }
-        set
-        {
-            this.landskodeField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
-public partial class Kommune : Administrativenhetsnummer
-{
-    
-    private string kommunenummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string kommunenummer
-    {
-        get
-        {
-            return this.kommunenummerField;
-        }
-        set
-        {
-            this.kommunenummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
-public partial class Fylke : Administrativenhetsnummer
-{
-    
-    private string fylkesnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string fylkesnummer
-    {
-        get
-        {
-            return this.fylkesnummerField;
-        }
-        set
-        {
-            this.fylkesnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Soekefelt))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Ansvarlig))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(BboxKriterie))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
-public partial class Kriterie
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
-public partial class Soekefelt : Kriterie
-{
-    
-    private string feltnavnField;
-    
-    private string feltverdiField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string feltnavn
-    {
-        get
-        {
-            return this.feltnavnField;
-        }
-        set
-        {
-            this.feltnavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string feltverdi
-    {
-        get
-        {
-            return this.feltverdiField;
-        }
-        set
-        {
-            this.feltverdiField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
-public partial class Ansvarlig : Kriterie
-{
-    
-    private AnsvarligEnum eierField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public AnsvarligEnum eier
-    {
-        get
-        {
-            return this.eierField;
-        }
-        set
-        {
-            this.eierField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
-public enum AnsvarligEnum
-{
-    
-    /// <remarks/>
-    EGEN,
-    
-    /// <remarks/>
-    EGENENHET,
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
-public partial class BboxKriterie : Kriterie
-{
-    
-    private Bbox bboxField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public Bbox bbox
-    {
-        get
-        {
-            return this.bboxField;
-        }
-        set
-        {
-            this.bboxField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Filreferanse))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Filinnhold))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Fil
-{
-    
-    private string filnavnField;
-    
-    private string mimeTypeField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string filnavn
-    {
-        get
-        {
-            return this.filnavnField;
-        }
-        set
-        {
-            this.filnavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string mimeType
-    {
-        get
-        {
-            return this.mimeTypeField;
-        }
-        set
-        {
-            this.mimeTypeField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Filreferanse : Fil
-{
-    
-    private string uriField;
-    
-    private string kvitteringUriField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="anyURI", Order=0)]
-    public string uri
-    {
-        get
-        {
-            return this.uriField;
-        }
-        set
-        {
-            this.uriField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="anyURI", Order=1)]
-    public string kvitteringUri
-    {
-        get
-        {
-            return this.kvitteringUriField;
-        }
-        set
-        {
-            this.kvitteringUriField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Filinnhold : Fil
-{
-    
-    private byte[] base64Field;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", Order=0)]
-    public byte[] base64
-    {
-        get
-        {
-            return this.base64Field;
-        }
-        set
-        {
-            this.base64Field = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
-public partial class Dokument
-{
-    
-    private string systemIDField;
-    
-    private string dokumentnummerField;
-    
-    private TilknyttetRegistreringSom tilknyttetRegistreringSomField;
-    
-    private Dokumenttype dokumenttypeField;
-    
-    private string tittelField;
-    
-    private Dokumentstatus dokumentstatusField;
-    
-    private Variantformat variantformatField;
-    
-    private Format formatField;
-    
-    private string referanseJournalpostSystemIDField;
-    
-    private Fil filField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string dokumentnummer
-    {
-        get
-        {
-            return this.dokumentnummerField;
-        }
-        set
-        {
-            this.dokumentnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public TilknyttetRegistreringSom tilknyttetRegistreringSom
-    {
-        get
-        {
-            return this.tilknyttetRegistreringSomField;
-        }
-        set
-        {
-            this.tilknyttetRegistreringSomField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public Dokumenttype dokumenttype
-    {
-        get
-        {
-            return this.dokumenttypeField;
-        }
-        set
-        {
-            this.dokumenttypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public string tittel
-    {
-        get
-        {
-            return this.tittelField;
-        }
-        set
-        {
-            this.tittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public Dokumentstatus dokumentstatus
-    {
-        get
-        {
-            return this.dokumentstatusField;
-        }
-        set
-        {
-            this.dokumentstatusField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public Variantformat variantformat
-    {
-        get
-        {
-            return this.variantformatField;
-        }
-        set
-        {
-            this.variantformatField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-    public Format format
-    {
-        get
-        {
-            return this.formatField;
-        }
-        set
-        {
-            this.formatField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-    public string referanseJournalpostSystemID
-    {
-        get
-        {
-            return this.referanseJournalpostSystemIDField;
-        }
-        set
-        {
-            this.referanseJournalpostSystemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-    public Fil Fil
-    {
-        get
-        {
-            return this.filField;
-        }
-        set
-        {
-            this.filField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Korrespondansepart
-{
-    
-    private string systemIDField;
-    
-    private Korrespondanseparttype korrespondanseparttypeField;
-    
-    private string behandlingsansvarligField;
-    
-    private bool skjermetKorrespondansepartField;
-    
-    private bool skjermetKorrespondansepartFieldSpecified;
-    
-    private string kortnavnField;
-    
-    private string deresReferanseField;
-    
-    private Journalenhet journalenhetField;
-    
-    private System.DateTime fristBesvarelseField;
-    
-    private bool fristBesvarelseFieldSpecified;
-    
-    private Forsendelsesmaate forsendelsesmaateField;
-    
-    private string administrativEnhetInitField;
-    
-    private string administrativEnhetField;
-    
-    private string saksbehandlerInitField;
-    
-    private string saksbehandlerField;
-    
-    private Kontakt kontaktField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public Korrespondanseparttype korrespondanseparttype
-    {
-        get
-        {
-            return this.korrespondanseparttypeField;
-        }
-        set
-        {
-            this.korrespondanseparttypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string behandlingsansvarlig
-    {
-        get
-        {
-            return this.behandlingsansvarligField;
-        }
-        set
-        {
-            this.behandlingsansvarligField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public bool skjermetKorrespondansepart
-    {
-        get
-        {
-            return this.skjermetKorrespondansepartField;
-        }
-        set
-        {
-            this.skjermetKorrespondansepartField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool skjermetKorrespondansepartSpecified
-    {
-        get
-        {
-            return this.skjermetKorrespondansepartFieldSpecified;
-        }
-        set
-        {
-            this.skjermetKorrespondansepartFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public string kortnavn
-    {
-        get
-        {
-            return this.kortnavnField;
-        }
-        set
-        {
-            this.kortnavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public string deresReferanse
-    {
-        get
-        {
-            return this.deresReferanseField;
-        }
-        set
-        {
-            this.deresReferanseField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public Journalenhet journalenhet
-    {
-        get
-        {
-            return this.journalenhetField;
-        }
-        set
-        {
-            this.journalenhetField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-    public System.DateTime fristBesvarelse
-    {
-        get
-        {
-            return this.fristBesvarelseField;
-        }
-        set
-        {
-            this.fristBesvarelseField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool fristBesvarelseSpecified
-    {
-        get
-        {
-            return this.fristBesvarelseFieldSpecified;
-        }
-        set
-        {
-            this.fristBesvarelseFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-    public Forsendelsesmaate forsendelsesmaate
-    {
-        get
-        {
-            return this.forsendelsesmaateField;
-        }
-        set
-        {
-            this.forsendelsesmaateField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-    public string administrativEnhetInit
-    {
-        get
-        {
-            return this.administrativEnhetInitField;
-        }
-        set
-        {
-            this.administrativEnhetInitField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-    public string administrativEnhet
-    {
-        get
-        {
-            return this.administrativEnhetField;
-        }
-        set
-        {
-            this.administrativEnhetField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-    public string saksbehandlerInit
-    {
-        get
-        {
-            return this.saksbehandlerInitField;
-        }
-        set
-        {
-            this.saksbehandlerInitField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-    public string saksbehandler
-    {
-        get
-        {
-            return this.saksbehandlerField;
-        }
-        set
-        {
-            this.saksbehandlerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=13)]
-    public Kontakt Kontakt
-    {
-        get
-        {
-            return this.kontaktField;
-        }
-        set
-        {
-            this.kontaktField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Journalpost
-{
-    
-    private string systemIDField;
-    
-    private Journalnummer journalnummerField;
-    
-    private string journalpostnummerField;
-    
-    private System.DateTime journaldatoField;
-    
-    private bool journaldatoFieldSpecified;
-    
-    private Journalposttype journalposttypeField;
-    
-    private System.DateTime dokumentetsDatoField;
-    
-    private bool dokumentetsDatoFieldSpecified;
-    
-    private Journalstatus journalstatusField;
-    
-    private string tittelField;
-    
-    private bool skjermetTittelField;
-    
-    private bool skjermetTittelFieldSpecified;
-    
-    private System.DateTime forfallsdatoField;
-    
-    private bool forfallsdatoFieldSpecified;
-    
-    private Skjerming skjermingField;
-    
-    private Arkivdel referanseArkivdelField;
-    
-    private string tilleggskodeField;
-    
-    private string antallVedleggField;
-    
-    private string offentligTittelField;
-    
-    private Saksnummer saksnrField;
-    
-    private string tilgangsgruppeNavnField;
-    
-    private SakSystemId referanseSakSystemIDField;
-    
-    private Korrespondansepart[] korrespondansepartField;
-    
-    private EksternNoekkel referanseEksternNoekkelField;
-    
-    private EksternNoekkel referanseMappeEksternNoekkelField;
-    
-    private Avskrivning[] referanseAvskrivningerField;
-    
-    private Merknad[] merknaderField;
-    
-    private Tilleggsinformasjon[] tilleggsinformasjonField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public Journalnummer journalnummer
-    {
-        get
-        {
-            return this.journalnummerField;
-        }
-        set
-        {
-            this.journalnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string journalpostnummer
-    {
-        get
-        {
-            return this.journalpostnummerField;
-        }
-        set
-        {
-            this.journalpostnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public System.DateTime journaldato
-    {
-        get
-        {
-            return this.journaldatoField;
-        }
-        set
-        {
-            this.journaldatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool journaldatoSpecified
-    {
-        get
-        {
-            return this.journaldatoFieldSpecified;
-        }
-        set
-        {
-            this.journaldatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public Journalposttype journalposttype
-    {
-        get
-        {
-            return this.journalposttypeField;
-        }
-        set
-        {
-            this.journalposttypeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public System.DateTime dokumentetsDato
-    {
-        get
-        {
-            return this.dokumentetsDatoField;
-        }
-        set
-        {
-            this.dokumentetsDatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool dokumentetsDatoSpecified
-    {
-        get
-        {
-            return this.dokumentetsDatoFieldSpecified;
-        }
-        set
-        {
-            this.dokumentetsDatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public Journalstatus journalstatus
-    {
-        get
-        {
-            return this.journalstatusField;
-        }
-        set
-        {
-            this.journalstatusField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-    public string tittel
-    {
-        get
-        {
-            return this.tittelField;
-        }
-        set
-        {
-            this.tittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-    public bool skjermetTittel
-    {
-        get
-        {
-            return this.skjermetTittelField;
-        }
-        set
-        {
-            this.skjermetTittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool skjermetTittelSpecified
-    {
-        get
-        {
-            return this.skjermetTittelFieldSpecified;
-        }
-        set
-        {
-            this.skjermetTittelFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-    public System.DateTime forfallsdato
-    {
-        get
-        {
-            return this.forfallsdatoField;
-        }
-        set
-        {
-            this.forfallsdatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool forfallsdatoSpecified
-    {
-        get
-        {
-            return this.forfallsdatoFieldSpecified;
-        }
-        set
-        {
-            this.forfallsdatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-    public Skjerming skjerming
-    {
-        get
-        {
-            return this.skjermingField;
-        }
-        set
-        {
-            this.skjermingField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-    public Arkivdel referanseArkivdel
-    {
-        get
-        {
-            return this.referanseArkivdelField;
-        }
-        set
-        {
-            this.referanseArkivdelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-    public string tilleggskode
-    {
-        get
-        {
-            return this.tilleggskodeField;
-        }
-        set
-        {
-            this.tilleggskodeField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=13)]
-    public string antallVedlegg
-    {
-        get
-        {
-            return this.antallVedleggField;
-        }
-        set
-        {
-            this.antallVedleggField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=14)]
-    public string offentligTittel
-    {
-        get
-        {
-            return this.offentligTittelField;
-        }
-        set
-        {
-            this.offentligTittelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=15)]
-    public Saksnummer saksnr
-    {
-        get
-        {
-            return this.saksnrField;
-        }
-        set
-        {
-            this.saksnrField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=16)]
-    public string tilgangsgruppeNavn
-    {
-        get
-        {
-            return this.tilgangsgruppeNavnField;
-        }
-        set
-        {
-            this.tilgangsgruppeNavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=17)]
-    public SakSystemId referanseSakSystemID
-    {
-        get
-        {
-            return this.referanseSakSystemIDField;
-        }
-        set
-        {
-            this.referanseSakSystemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=18)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Korrespondansepart[] korrespondansepart
-    {
-        get
-        {
-            return this.korrespondansepartField;
-        }
-        set
-        {
-            this.korrespondansepartField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=19)]
-    public EksternNoekkel referanseEksternNoekkel
-    {
-        get
-        {
-            return this.referanseEksternNoekkelField;
-        }
-        set
-        {
-            this.referanseEksternNoekkelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=20)]
-    public EksternNoekkel referanseMappeEksternNoekkel
-    {
-        get
-        {
-            return this.referanseMappeEksternNoekkelField;
-        }
-        set
-        {
-            this.referanseMappeEksternNoekkelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=21)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Avskrivning[] referanseAvskrivninger
-    {
-        get
-        {
-            return this.referanseAvskrivningerField;
-        }
-        set
-        {
-            this.referanseAvskrivningerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=22)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Merknad[] merknader
-    {
-        get
-        {
-            return this.merknaderField;
-        }
-        set
-        {
-            this.merknaderField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlArrayAttribute(Order=23)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
-    public Tilleggsinformasjon[] tilleggsinformasjon
-    {
-        get
-        {
-            return this.tilleggsinformasjonField;
-        }
-        set
-        {
-            this.tilleggsinformasjonField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Journalnummer : Journpostnoekkel
-{
-    
-    private string journalaarField;
-    
-    private string journalsekvensnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-    public string journalaar
-    {
-        get
-        {
-            return this.journalaarField;
-        }
-        set
-        {
-            this.journalaarField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
-    public string journalsekvensnummer
-    {
-        get
-        {
-            return this.journalsekvensnummerField;
-        }
-        set
-        {
-            this.journalsekvensnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(JournpostSystemID))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(JournpostEksternNoekkel))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalnummer))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumentnummer))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Journpostnoekkel
-{
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class JournpostSystemID : Journpostnoekkel
-{
-    
-    private SystemID systemIDField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public SystemID systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class SystemID
-{
-    
-    private string idField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string id
-    {
-        get
-        {
-            return this.idField;
-        }
-        set
-        {
-            this.idField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class JournpostEksternNoekkel : Journpostnoekkel
-{
-    
-    private EksternNoekkel eksternnoekkelField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public EksternNoekkel eksternnoekkel
-    {
-        get
-        {
-            return this.eksternnoekkelField;
-        }
-        set
-        {
-            this.eksternnoekkelField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Dokumentnummer : Journpostnoekkel
-{
-    
-    private string saksaarField;
-    
-    private string sakssekvensnummerField;
-    
-    private string journalpostnummerField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-    public string saksaar
-    {
-        get
-        {
-            return this.saksaarField;
-        }
-        set
-        {
-            this.saksaarField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
-    public string sakssekvensnummer
-    {
-        get
-        {
-            return this.sakssekvensnummerField;
-        }
-        set
-        {
-            this.sakssekvensnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=2)]
-    public string journalpostnummer
-    {
-        get
-        {
-            return this.journalpostnummerField;
-        }
-        set
-        {
-            this.journalpostnummerField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class SakSystemId : Saksnoekkel
-{
-    
-    private SystemID systemIDField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public SystemID systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class Avskrivning
-{
-    
-    private string systemIDField;
-    
-    private System.DateTime avskrivningsdatoField;
-    
-    private bool avskrivningsdatoFieldSpecified;
-    
-    private string avskrevetAvField;
-    
-    private Avskrivningsmaate avskrivningsmaateField;
-    
-    private Journalnummer referanseAvskriverJournalnummerField;
-    
-    private Journalnummer referanseAvskrivesAvJournalnummerField;
-    
-    private EksternNoekkel referanseAvskriverEksternNoekkelField;
-    
-    private EksternNoekkel referanseAvskrivesAvEksternNoekkelField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string systemID
-    {
-        get
-        {
-            return this.systemIDField;
-        }
-        set
-        {
-            this.systemIDField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public System.DateTime avskrivningsdato
-    {
-        get
-        {
-            return this.avskrivningsdatoField;
-        }
-        set
-        {
-            this.avskrivningsdatoField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIgnoreAttribute()]
-    public bool avskrivningsdatoSpecified
-    {
-        get
-        {
-            return this.avskrivningsdatoFieldSpecified;
-        }
-        set
-        {
-            this.avskrivningsdatoFieldSpecified = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string avskrevetAv
-    {
-        get
-        {
-            return this.avskrevetAvField;
-        }
-        set
-        {
-            this.avskrevetAvField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public Avskrivningsmaate avskrivningsmaate
-    {
-        get
-        {
-            return this.avskrivningsmaateField;
-        }
-        set
-        {
-            this.avskrivningsmaateField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-    public Journalnummer referanseAvskriverJournalnummer
-    {
-        get
-        {
-            return this.referanseAvskriverJournalnummerField;
-        }
-        set
-        {
-            this.referanseAvskriverJournalnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-    public Journalnummer referanseAvskrivesAvJournalnummer
-    {
-        get
-        {
-            return this.referanseAvskrivesAvJournalnummerField;
-        }
-        set
-        {
-            this.referanseAvskrivesAvJournalnummerField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-    public EksternNoekkel referanseAvskriverEksternNoekkel
-    {
-        get
-        {
-            return this.referanseAvskriverEksternNoekkelField;
-        }
-        set
-        {
-            this.referanseAvskriverEksternNoekkelField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-    public EksternNoekkel referanseAvskrivesAvEksternNoekkel
-    {
-        get
-        {
-            return this.referanseAvskrivesAvEksternNoekkelField;
-        }
-        set
-        {
-            this.referanseAvskrivesAvEksternNoekkelField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(PlanKontekst))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(MatrikkelKontekst))]
-[System.Xml.Serialization.XmlIncludeAttribute(typeof(ArkivKontekst))]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-public partial class Kontekst
-{
-    
-    private string spraakField;
-    
-    private string klientnavnField;
-    
-    private string klientversjonField;
-    
-    private string systemversjonField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public string spraak
-    {
-        get
-        {
-            return this.spraakField;
-        }
-        set
-        {
-            this.spraakField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string klientnavn
-    {
-        get
-        {
-            return this.klientnavnField;
-        }
-        set
-        {
-            this.klientnavnField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-    public string klientversjon
-    {
-        get
-        {
-            return this.klientversjonField;
-        }
-        set
-        {
-            this.klientversjonField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-    public string systemversjon
-    {
-        get
-        {
-            return this.systemversjonField;
-        }
-        set
-        {
-            this.systemversjonField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-public partial class PlanKontekst : Kontekst
-{
-    
-    private KoordinatsystemKode koordinatsystemField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public KoordinatsystemKode koordinatsystem
-    {
-        get
-        {
-            return this.koordinatsystemField;
-        }
-        set
-        {
-            this.koordinatsystemField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-public partial class MatrikkelKontekst : Kontekst
-{
-    
-    private KoordinatsystemKode koordinatsystemField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public KoordinatsystemKode koordinatsystem
-    {
-        get
-        {
-            return this.koordinatsystemField;
-        }
-        set
-        {
-            this.koordinatsystemField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-public partial class ArkivKontekst : Kontekst
-{
-    
-    private KoordinatsystemKode koordinatsystemField;
-    
-    private string referanseoppsettField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public KoordinatsystemKode koordinatsystem
-    {
-        get
-        {
-            return this.koordinatsystemField;
-        }
-        set
-        {
-            this.koordinatsystemField = value;
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-    public string referanseoppsett
-    {
-        get
-        {
-            return this.referanseoppsettField;
-        }
-        set
-        {
-            this.referanseoppsettField = value;
-        }
-    }
-}
-
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
-public partial class SakEksternNoekkel : Saksnoekkel
-{
-    
-    private EksternNoekkel eksternnoekkelField;
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-    public EksternNoekkel eksternnoekkel
-    {
-        get
-        {
-            return this.eksternnoekkelField;
-        }
-        set
-        {
-            this.eksternnoekkelField = value;
-        }
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettSaksmappeTilleggsinformasjon
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettSaksmappeTilleggsinformasjon()
-    {
-    }
-    
-    public SlettSaksmappeTilleggsinformasjon(string[] systemID, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettSaksmappeTilleggsinformasjonResponse
-{
-    
-    public SlettSaksmappeTilleggsinformasjonResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettSaksmappeMerknad
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettSaksmappeMerknad()
-    {
-    }
-    
-    public SlettSaksmappeMerknad(string[] systemID, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettSaksmappeMerknadResponse
-{
-    
-    public SlettSaksmappeMerknadResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettJournalpostTilleggsinformasjon
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettJournalpostTilleggsinformasjon()
-    {
-    }
-    
-    public SlettJournalpostTilleggsinformasjon(string[] systemID, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.journalnokkel = journalnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettJournalpostTilleggsinformasjonResponse
-{
-    
-    public SlettJournalpostTilleggsinformasjonResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettJournalpostMerknad
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettJournalpostMerknad()
-    {
-    }
-    
-    public SlettJournalpostMerknad(string[] systemID, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.journalnokkel = journalnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettJournalpostMerknadResponse
-{
-    
-    public SlettJournalpostMerknadResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NySaksmappeTilleggsinformasjon
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Tilleggsinformasjon[] tilleggsinfo;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NySaksmappeTilleggsinformasjon()
-    {
-    }
-    
-    public NySaksmappeTilleggsinformasjon(Tilleggsinformasjon[] tilleggsinfo, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.tilleggsinfo = tilleggsinfo;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NySaksmappeTilleggsinformasjonResponse
-{
-    
-    public NySaksmappeTilleggsinformasjonResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NySaksmappeMerknad
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Merknad[] merknad;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NySaksmappeMerknad()
-    {
-    }
-    
-    public NySaksmappeMerknad(Merknad[] merknad, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.merknad = merknad;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NySaksmappeMerknadResponse
-{
-    
-    public NySaksmappeMerknadResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyJournalpostTilleggsinformasjon
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Tilleggsinformasjon[] tilleggsinfo;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyJournalpostTilleggsinformasjon()
-    {
-    }
-    
-    public NyJournalpostTilleggsinformasjon(Tilleggsinformasjon[] tilleggsinfo, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        this.tilleggsinfo = tilleggsinfo;
-        this.journalnokkel = journalnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyJournalpostTilleggsinformasjonResponse
-{
-    
-    public NyJournalpostTilleggsinformasjonResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyJournalpostMerknad
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Merknad[] merknad;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyJournalpostMerknad()
-    {
-    }
-    
-    public NyJournalpostMerknad(Merknad[] merknad, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        this.merknad = merknad;
-        this.journalnokkel = journalnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyJournalpostMerknadResponse
-{
-    
-    public NyJournalpostMerknadResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettAvskrivning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettAvskrivning
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettAvskrivning()
-    {
-    }
-    
-    public SlettAvskrivning(string[] systemID, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.journalnokkel = journalnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettAvskrivningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettAvskrivningResponse
-{
-    
-    public SlettAvskrivningResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyAvskrivning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyAvskrivning
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Avskrivning[] avskrivning;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyAvskrivning()
-    {
-    }
-    
-    public NyAvskrivning(Avskrivning[] avskrivning, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        this.avskrivning = avskrivning;
-        this.journalnokkel = journalnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyAvskrivningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyAvskrivningResponse
-{
-    
-    public NyAvskrivningResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettKorrespondansepart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettKorrespondansepart
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalpostnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettKorrespondansepart()
-    {
-    }
-    
-    public SlettKorrespondansepart(string[] systemID, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.journalpostnokkel = journalpostnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettKorrespondansepartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettKorrespondansepartResponse
-{
-    
-    public SlettKorrespondansepartResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyKorrespondansepart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyKorrespondansepart
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Korrespondansepart[] part;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Journpostnoekkel journalpostnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyKorrespondansepart()
-    {
-    }
-    
-    public NyKorrespondansepart(Korrespondansepart[] part, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        this.part = part;
-        this.journalpostnokkel = journalpostnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyKorrespondansepartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyKorrespondansepartResponse
-{
-    
-    public NyKorrespondansepartResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalposterUnderArbeid", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class FinnJournalposterUnderArbeid
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    public Ansvarlig ansvarlig;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public bool returnerMerknad;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public bool returnerTilleggsinformasjon;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=3)]
-    public bool returnerKorrespondansepart;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=4)]
-    public bool returnerAvskrivning;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=5)]
-    public ArkivKontekst kontekst;
-    
-    public FinnJournalposterUnderArbeid()
-    {
-    }
-    
-    public FinnJournalposterUnderArbeid(Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivKontekst kontekst)
-    {
-        this.ansvarlig = ansvarlig;
-        this.returnerMerknad = returnerMerknad;
-        this.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
-        this.returnerKorrespondansepart = returnerKorrespondansepart;
-        this.returnerAvskrivning = returnerAvskrivning;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalposterUnderArbeidResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class FinnJournalposterUnderArbeidResponse
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Journalpost[] @return;
-    
-    public FinnJournalposterUnderArbeidResponse()
-    {
-    }
-    
-    public FinnJournalposterUnderArbeidResponse(Journalpost[] @return)
-    {
-        this.@return = @return;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalpostRestanser", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class FinnJournalpostRestanser
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    public Ansvarlig ansvarlig;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public bool returnerMerknad;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public bool returnerTilleggsinformasjon;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=3)]
-    public bool returnerKorrespondansepart;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=4)]
-    public bool returnerAvskrivning;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=5)]
-    public ArkivKontekst kontekst;
-    
-    public FinnJournalpostRestanser()
-    {
-    }
-    
-    public FinnJournalpostRestanser(Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivKontekst kontekst)
-    {
-        this.ansvarlig = ansvarlig;
-        this.returnerMerknad = returnerMerknad;
-        this.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
-        this.returnerKorrespondansepart = returnerKorrespondansepart;
-        this.returnerAvskrivning = returnerAvskrivning;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalpostRestanserResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class FinnJournalpostRestanserResponse
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Journalpost[] @return;
-    
-    public FinnJournalpostRestanserResponse()
-    {
-    }
-    
-    public FinnJournalpostRestanserResponse(Journalpost[] @return)
-    {
-        this.@return = @return;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettSakspart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettSakspart
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
-    public string[] systemID;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettSakspart()
-    {
-    }
-    
-    public SlettSakspart(string[] systemID, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.systemID = systemID;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettSakspartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettSakspartResponse
-{
-    
-    public SlettSakspartResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NySakspart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NySakspart
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
-    public Sakspart[] sakspart;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NySakspart()
-    {
-    }
-    
-    public NySakspart(Sakspart[] sakspart, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.sakspart = sakspart;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NySakspartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NySakspartResponse
-{
-    
-    public NySakspartResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettPunkt", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettPunkt
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31", IsNullable=false)]
-    public Punkt[] posisjon;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettPunkt()
-    {
-    }
-    
-    public SlettPunkt(Punkt[] posisjon, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.posisjon = posisjon;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettPunktResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettPunktResponse
-{
-    
-    public SlettPunktResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyPunkt", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyPunkt
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31", IsNullable=false)]
-    public Punkt[] posisjon;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyPunkt()
-    {
-    }
-    
-    public NyPunkt(Punkt[] posisjon, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.posisjon = posisjon;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyPunktResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyPunktResponse
-{
-    
-    public NyPunktResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettBygning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettBygning
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
-    public ByggIdent[] bygninger;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettBygning()
-    {
-    }
-    
-    public SlettBygning(ByggIdent[] bygninger, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.bygninger = bygninger;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettBygningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettBygningResponse
-{
-    
-    public SlettBygningResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyBygning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyBygning
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
-    public ByggIdent[] bygninger;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyBygning()
-    {
-    }
-    
-    public NyBygning(ByggIdent[] bygninger, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.bygninger = bygninger;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyBygningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyBygningResponse
-{
-    
-    public NyBygningResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettMatrikkelnummer", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettMatrikkelnummer
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
-    public Matrikkelnummer[] matrikkelnr;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public SlettMatrikkelnummer()
-    {
-    }
-    
-    public SlettMatrikkelnummer(Matrikkelnummer[] matrikkelnr, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.matrikkelnr = matrikkelnr;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="SlettMatrikkelnummerResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class SlettMatrikkelnummerResponse
-{
-    
-    public SlettMatrikkelnummerResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyMatrikkelnummer", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyMatrikkelnummer
-{
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
-    [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
-    public Matrikkelnummer[] matrikkelnr;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
-    public Saksnoekkel saksnokkel;
-    
-    [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
-    public ArkivKontekst kontekst;
-    
-    public NyMatrikkelnummer()
-    {
-    }
-    
-    public NyMatrikkelnummer(Matrikkelnummer[] matrikkelnr, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        this.matrikkelnr = matrikkelnr;
-        this.saksnokkel = saksnokkel;
-        this.kontekst = kontekst;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-[System.ServiceModel.MessageContractAttribute(WrapperName="NyMatrikkelnummerResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
-public partial class NyMatrikkelnummerResponse
-{
-    
-    public NyMatrikkelnummerResponse()
-    {
-    }
-}
-
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-public interface SakArkivOppdateringPortChannel : SakArkivOppdateringPort, System.ServiceModel.IClientChannel
-{
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-public partial class SakArkivOppdateringPortClient : System.ServiceModel.ClientBase<SakArkivOppdateringPort>, SakArkivOppdateringPort
-{
-    
-    public SakArkivOppdateringPortClient()
-    {
-    }
-    
-    public SakArkivOppdateringPortClient(string endpointConfigurationName) : 
-            base(endpointConfigurationName)
-    {
-    }
-    
-    public SakArkivOppdateringPortClient(string endpointConfigurationName, string remoteAddress) : 
-            base(endpointConfigurationName, remoteAddress)
-    {
-    }
-    
-    public SakArkivOppdateringPortClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-            base(endpointConfigurationName, remoteAddress)
-    {
-    }
-    
-    public SakArkivOppdateringPortClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-            base(binding, remoteAddress)
-    {
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettSaksmappeTilleggsinformasjonResponse SakArkivOppdateringPort.SlettSaksmappeTilleggsinformasjon(SlettSaksmappeTilleggsinformasjon request)
-    {
-        return base.Channel.SlettSaksmappeTilleggsinformasjon(request);
-    }
-    
-    public void SlettSaksmappeTilleggsinformasjon(string[] systemID, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        SlettSaksmappeTilleggsinformasjon inValue = new SlettSaksmappeTilleggsinformasjon();
-        inValue.systemID = systemID;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        SlettSaksmappeTilleggsinformasjonResponse retVal = ((SakArkivOppdateringPort)(this)).SlettSaksmappeTilleggsinformasjon(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettSaksmappeMerknadResponse SakArkivOppdateringPort.SlettSaksmappeMerknad(SlettSaksmappeMerknad request)
-    {
-        return base.Channel.SlettSaksmappeMerknad(request);
-    }
-    
-    public void SlettSaksmappeMerknad(string[] systemID, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        SlettSaksmappeMerknad inValue = new SlettSaksmappeMerknad();
-        inValue.systemID = systemID;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        SlettSaksmappeMerknadResponse retVal = ((SakArkivOppdateringPort)(this)).SlettSaksmappeMerknad(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettJournalpostTilleggsinformasjonResponse SakArkivOppdateringPort.SlettJournalpostTilleggsinformasjon(SlettJournalpostTilleggsinformasjon request)
-    {
-        return base.Channel.SlettJournalpostTilleggsinformasjon(request);
-    }
-    
-    public void SlettJournalpostTilleggsinformasjon(string[] systemID, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        SlettJournalpostTilleggsinformasjon inValue = new SlettJournalpostTilleggsinformasjon();
-        inValue.systemID = systemID;
-        inValue.journalnokkel = journalnokkel;
-        inValue.kontekst = kontekst;
-        SlettJournalpostTilleggsinformasjonResponse retVal = ((SakArkivOppdateringPort)(this)).SlettJournalpostTilleggsinformasjon(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettJournalpostMerknadResponse SakArkivOppdateringPort.SlettJournalpostMerknad(SlettJournalpostMerknad request)
-    {
-        return base.Channel.SlettJournalpostMerknad(request);
-    }
-    
-    public void SlettJournalpostMerknad(string[] systemID, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        SlettJournalpostMerknad inValue = new SlettJournalpostMerknad();
-        inValue.systemID = systemID;
-        inValue.journalnokkel = journalnokkel;
-        inValue.kontekst = kontekst;
-        SlettJournalpostMerknadResponse retVal = ((SakArkivOppdateringPort)(this)).SlettJournalpostMerknad(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NySaksmappeTilleggsinformasjonResponse SakArkivOppdateringPort.NySaksmappeTilleggsinformasjon(NySaksmappeTilleggsinformasjon request)
-    {
-        return base.Channel.NySaksmappeTilleggsinformasjon(request);
-    }
-    
-    public void NySaksmappeTilleggsinformasjon(Tilleggsinformasjon[] tilleggsinfo, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        NySaksmappeTilleggsinformasjon inValue = new NySaksmappeTilleggsinformasjon();
-        inValue.tilleggsinfo = tilleggsinfo;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        NySaksmappeTilleggsinformasjonResponse retVal = ((SakArkivOppdateringPort)(this)).NySaksmappeTilleggsinformasjon(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NySaksmappeMerknadResponse SakArkivOppdateringPort.NySaksmappeMerknad(NySaksmappeMerknad request)
-    {
-        return base.Channel.NySaksmappeMerknad(request);
-    }
-    
-    public void NySaksmappeMerknad(Merknad[] merknad, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        NySaksmappeMerknad inValue = new NySaksmappeMerknad();
-        inValue.merknad = merknad;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        NySaksmappeMerknadResponse retVal = ((SakArkivOppdateringPort)(this)).NySaksmappeMerknad(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyJournalpostTilleggsinformasjonResponse SakArkivOppdateringPort.NyJournalpostTilleggsinformasjon(NyJournalpostTilleggsinformasjon request)
-    {
-        return base.Channel.NyJournalpostTilleggsinformasjon(request);
-    }
-    
-    public void NyJournalpostTilleggsinformasjon(Tilleggsinformasjon[] tilleggsinfo, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        NyJournalpostTilleggsinformasjon inValue = new NyJournalpostTilleggsinformasjon();
-        inValue.tilleggsinfo = tilleggsinfo;
-        inValue.journalnokkel = journalnokkel;
-        inValue.kontekst = kontekst;
-        NyJournalpostTilleggsinformasjonResponse retVal = ((SakArkivOppdateringPort)(this)).NyJournalpostTilleggsinformasjon(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyJournalpostMerknadResponse SakArkivOppdateringPort.NyJournalpostMerknad(NyJournalpostMerknad request)
-    {
-        return base.Channel.NyJournalpostMerknad(request);
-    }
-    
-    public void NyJournalpostMerknad(Merknad[] merknad, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        NyJournalpostMerknad inValue = new NyJournalpostMerknad();
-        inValue.merknad = merknad;
-        inValue.journalnokkel = journalnokkel;
-        inValue.kontekst = kontekst;
-        NyJournalpostMerknadResponse retVal = ((SakArkivOppdateringPort)(this)).NyJournalpostMerknad(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettAvskrivningResponse SakArkivOppdateringPort.SlettAvskrivning(SlettAvskrivning request)
-    {
-        return base.Channel.SlettAvskrivning(request);
-    }
-    
-    public void SlettAvskrivning(string[] systemID, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        SlettAvskrivning inValue = new SlettAvskrivning();
-        inValue.systemID = systemID;
-        inValue.journalnokkel = journalnokkel;
-        inValue.kontekst = kontekst;
-        SlettAvskrivningResponse retVal = ((SakArkivOppdateringPort)(this)).SlettAvskrivning(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyAvskrivningResponse SakArkivOppdateringPort.NyAvskrivning(NyAvskrivning request)
-    {
-        return base.Channel.NyAvskrivning(request);
-    }
-    
-    public void NyAvskrivning(Avskrivning[] avskrivning, Journpostnoekkel journalnokkel, ArkivKontekst kontekst)
-    {
-        NyAvskrivning inValue = new NyAvskrivning();
-        inValue.avskrivning = avskrivning;
-        inValue.journalnokkel = journalnokkel;
-        inValue.kontekst = kontekst;
-        NyAvskrivningResponse retVal = ((SakArkivOppdateringPort)(this)).NyAvskrivning(inValue);
-    }
-    
-    public void OppdaterJournalpostStatus(Journalstatus journalstatus, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        base.Channel.OppdaterJournalpostStatus(journalstatus, journalpostnokkel, kontekst);
-    }
-    
-    public Journalpost OppdaterJournalpostEksternNoekkel(EksternNoekkel nokkel, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        return base.Channel.OppdaterJournalpostEksternNoekkel(nokkel, journalpostnokkel, kontekst);
-    }
-    
-    public Dokument NyDokument(Dokument dokument, bool returnerFil, ArkivKontekst kontekst)
-    {
-        return base.Channel.NyDokument(dokument, returnerFil, kontekst);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettKorrespondansepartResponse SakArkivOppdateringPort.SlettKorrespondansepart(SlettKorrespondansepart request)
-    {
-        return base.Channel.SlettKorrespondansepart(request);
-    }
-    
-    public void SlettKorrespondansepart(string[] systemID, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        SlettKorrespondansepart inValue = new SlettKorrespondansepart();
-        inValue.systemID = systemID;
-        inValue.journalpostnokkel = journalpostnokkel;
-        inValue.kontekst = kontekst;
-        SlettKorrespondansepartResponse retVal = ((SakArkivOppdateringPort)(this)).SlettKorrespondansepart(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyKorrespondansepartResponse SakArkivOppdateringPort.NyKorrespondansepart(NyKorrespondansepart request)
-    {
-        return base.Channel.NyKorrespondansepart(request);
-    }
-    
-    public void NyKorrespondansepart(Korrespondansepart[] part, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        NyKorrespondansepart inValue = new NyKorrespondansepart();
-        inValue.part = part;
-        inValue.journalpostnokkel = journalpostnokkel;
-        inValue.kontekst = kontekst;
-        NyKorrespondansepartResponse retVal = ((SakArkivOppdateringPort)(this)).NyKorrespondansepart(inValue);
-    }
-    
-    public Journalpost OppdaterJournalpostAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, Journpostnoekkel journalpostnokkel, ArkivKontekst kontekst)
-    {
-        return base.Channel.OppdaterJournalpostAnsvarlig(nyAdministrativEnhetKode, nySaksbehandlerInit, journalpostnokkel, kontekst);
-    }
-    
-    public Journalpost NyJournalpost(Journalpost journalpost, ArkivKontekst kontekst)
-    {
-        return base.Channel.NyJournalpost(journalpost, kontekst);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    FinnJournalposterUnderArbeidResponse SakArkivOppdateringPort.FinnJournalposterUnderArbeid(FinnJournalposterUnderArbeid request)
-    {
-        return base.Channel.FinnJournalposterUnderArbeid(request);
-    }
-    
-    public Journalpost[] FinnJournalposterUnderArbeid(Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivKontekst kontekst)
-    {
-        FinnJournalposterUnderArbeid inValue = new FinnJournalposterUnderArbeid();
-        inValue.ansvarlig = ansvarlig;
-        inValue.returnerMerknad = returnerMerknad;
-        inValue.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
-        inValue.returnerKorrespondansepart = returnerKorrespondansepart;
-        inValue.returnerAvskrivning = returnerAvskrivning;
-        inValue.kontekst = kontekst;
-        FinnJournalposterUnderArbeidResponse retVal = ((SakArkivOppdateringPort)(this)).FinnJournalposterUnderArbeid(inValue);
-        return retVal.@return;
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    FinnJournalpostRestanserResponse SakArkivOppdateringPort.FinnJournalpostRestanser(FinnJournalpostRestanser request)
-    {
-        return base.Channel.FinnJournalpostRestanser(request);
-    }
-    
-    public Journalpost[] FinnJournalpostRestanser(Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivKontekst kontekst)
-    {
-        FinnJournalpostRestanser inValue = new FinnJournalpostRestanser();
-        inValue.ansvarlig = ansvarlig;
-        inValue.returnerMerknad = returnerMerknad;
-        inValue.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
-        inValue.returnerKorrespondansepart = returnerKorrespondansepart;
-        inValue.returnerAvskrivning = returnerAvskrivning;
-        inValue.kontekst = kontekst;
-        FinnJournalpostRestanserResponse retVal = ((SakArkivOppdateringPort)(this)).FinnJournalpostRestanser(inValue);
-        return retVal.@return;
-    }
-    
-    public void OppdaterPlan(NasjonalArealplanId planid, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        base.Channel.OppdaterPlan(planid, saksnokkel, kontekst);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettSakspartResponse SakArkivOppdateringPort.SlettSakspart(SlettSakspart request)
-    {
-        return base.Channel.SlettSakspart(request);
-    }
-    
-    public void SlettSakspart(string[] systemID, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        SlettSakspart inValue = new SlettSakspart();
-        inValue.systemID = systemID;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        SlettSakspartResponse retVal = ((SakArkivOppdateringPort)(this)).SlettSakspart(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NySakspartResponse SakArkivOppdateringPort.NySakspart(NySakspart request)
-    {
-        return base.Channel.NySakspart(request);
-    }
-    
-    public void NySakspart(Sakspart[] sakspart, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        NySakspart inValue = new NySakspart();
-        inValue.sakspart = sakspart;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        NySakspartResponse retVal = ((SakArkivOppdateringPort)(this)).NySakspart(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettPunktResponse SakArkivOppdateringPort.SlettPunkt(SlettPunkt request)
-    {
-        return base.Channel.SlettPunkt(request);
-    }
-    
-    public void SlettPunkt(Punkt[] posisjon, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        SlettPunkt inValue = new SlettPunkt();
-        inValue.posisjon = posisjon;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        SlettPunktResponse retVal = ((SakArkivOppdateringPort)(this)).SlettPunkt(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyPunktResponse SakArkivOppdateringPort.NyPunkt(NyPunkt request)
-    {
-        return base.Channel.NyPunkt(request);
-    }
-    
-    public void NyPunkt(Punkt[] posisjon, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        NyPunkt inValue = new NyPunkt();
-        inValue.posisjon = posisjon;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        NyPunktResponse retVal = ((SakArkivOppdateringPort)(this)).NyPunkt(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettBygningResponse SakArkivOppdateringPort.SlettBygning(SlettBygning request)
-    {
-        return base.Channel.SlettBygning(request);
-    }
-    
-    public void SlettBygning(ByggIdent[] bygninger, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        SlettBygning inValue = new SlettBygning();
-        inValue.bygninger = bygninger;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        SlettBygningResponse retVal = ((SakArkivOppdateringPort)(this)).SlettBygning(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyBygningResponse SakArkivOppdateringPort.NyBygning(NyBygning request)
-    {
-        return base.Channel.NyBygning(request);
-    }
-    
-    public void NyBygning(ByggIdent[] bygninger, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        NyBygning inValue = new NyBygning();
-        inValue.bygninger = bygninger;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        NyBygningResponse retVal = ((SakArkivOppdateringPort)(this)).NyBygning(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    SlettMatrikkelnummerResponse SakArkivOppdateringPort.SlettMatrikkelnummer(SlettMatrikkelnummer request)
-    {
-        return base.Channel.SlettMatrikkelnummer(request);
-    }
-    
-    public void SlettMatrikkelnummer(Matrikkelnummer[] matrikkelnr, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        SlettMatrikkelnummer inValue = new SlettMatrikkelnummer();
-        inValue.matrikkelnr = matrikkelnr;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        SlettMatrikkelnummerResponse retVal = ((SakArkivOppdateringPort)(this)).SlettMatrikkelnummer(inValue);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    NyMatrikkelnummerResponse SakArkivOppdateringPort.NyMatrikkelnummer(NyMatrikkelnummer request)
-    {
-        return base.Channel.NyMatrikkelnummer(request);
-    }
-    
-    public void NyMatrikkelnummer(Matrikkelnummer[] matrikkelnr, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        NyMatrikkelnummer inValue = new NyMatrikkelnummer();
-        inValue.matrikkelnr = matrikkelnr;
-        inValue.saksnokkel = saksnokkel;
-        inValue.kontekst = kontekst;
-        NyMatrikkelnummerResponse retVal = ((SakArkivOppdateringPort)(this)).NyMatrikkelnummer(inValue);
-    }
-    
-    public Saksmappe OppdaterMappeAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        return base.Channel.OppdaterMappeAnsvarlig(nyAdministrativEnhetKode, nySaksbehandlerInit, saksnokkel, kontekst);
-    }
-    
-    public Saksmappe OppdaterMappeEksternNoekkel(EksternNoekkel nokkel, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        return base.Channel.OppdaterMappeEksternNoekkel(nokkel, saksnokkel, kontekst);
-    }
-    
-    public Saksmappe OppdaterMappeStatus(Saksstatus saksstatuskode, Saksnoekkel saksnokkel, ArkivKontekst kontekst)
-    {
-        return base.Channel.OppdaterMappeStatus(saksstatuskode, saksnokkel, kontekst);
-    }
-    
-    public Saksmappe NySaksmappe(Saksmappe mappe, ArkivKontekst kontekst)
-    {
-        return base.Channel.NySaksmappe(mappe, kontekst);
-    }
-}
-namespace rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31
+namespace ArkivOppdatering
 {
     using System.Runtime.Serialization;
     
@@ -6402,12 +16,12 @@ namespace rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="GeointegrasjonFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.ApplicationFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.FinderFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.ValidationFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.SystemFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.ImplementationFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.OperationalFault))]
     public partial class GeointegrasjonFault : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -6417,7 +31,7 @@ namespace rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31
         
         private string feilBeskrivelseField;
         
-        private rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.StringListe feilDetaljerField;
+        private ArkivOppdatering.StringListe feilDetaljerField;
         
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData
         {
@@ -6458,7 +72,7 @@ namespace rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
-        public rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.StringListe feilDetaljer
+        public ArkivOppdatering.StringListe feilDetaljer
         {
             get
             {
@@ -6474,46 +88,46 @@ namespace rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.FinderFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ValidationFault))]
-    public partial class ApplicationFault : rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.GeointegrasjonFault
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.FinderFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.ValidationFault))]
+    public partial class ApplicationFault : ArkivOppdatering.GeointegrasjonFault
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    public partial class FinderFault : rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault
+    public partial class FinderFault : ArkivOppdatering.ApplicationFault
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    public partial class ValidationFault : rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ApplicationFault
+    public partial class ValidationFault : ArkivOppdatering.ApplicationFault
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.ImplementationFault))]
-    [System.Runtime.Serialization.KnownTypeAttribute(typeof(rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.OperationalFault))]
-    public partial class SystemFault : rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.GeointegrasjonFault
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.ImplementationFault))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(ArkivOppdatering.OperationalFault))]
+    public partial class SystemFault : ArkivOppdatering.GeointegrasjonFault
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    public partial class ImplementationFault : rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault
+    public partial class ImplementationFault : ArkivOppdatering.SystemFault
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
-    public partial class OperationalFault : rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31.SystemFault
+    public partial class OperationalFault : ArkivOppdatering.SystemFault
     {
     }
     
@@ -6522,5 +136,6388 @@ namespace rep.geointegrasjon.no.Felles.Teknisk.xml.schema._2012._01._31
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="StringListe", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", ItemName="liste")]
     public class StringListe : System.Collections.Generic.List<string>
     {
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", ConfigurationName="ArkivOppdatering.SakArkivOppdateringPort")]
+    public interface SakArkivOppdateringPort
+    {
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eTilleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettSaksmappeTilleggsinformasjonResponse SlettSaksmappeTilleggsinformasjon(ArkivOppdatering.SlettSaksmappeTilleggsinformasjon request);
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSaksmapp" +
+            "eMerknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettSaksmappeMerknadResponse SlettSaksmappeMerknad(ArkivOppdatering.SlettSaksmappeMerknad request);
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostTilleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettJournalpostTilleggsinformasjonResponse SlettJournalpostTilleggsinformasjon(ArkivOppdatering.SlettJournalpostTilleggsinformasjon request);
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettJournalp" +
+            "ostMerknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettJournalpostMerknadResponse SlettJournalpostMerknad(ArkivOppdatering.SlettJournalpostMerknad request);
+        
+        // CODEGEN: Parameter 'tilleggsinfo' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeTi" +
+            "lleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NySaksmappeTilleggsinformasjonResponse NySaksmappeTilleggsinformasjon(ArkivOppdatering.NySaksmappeTilleggsinformasjon request);
+        
+        // CODEGEN: Parameter 'merknad' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappeMe" +
+            "rknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NySaksmappeMerknadResponse NySaksmappeMerknad(ArkivOppdatering.NySaksmappeMerknad request);
+        
+        // CODEGEN: Parameter 'tilleggsinfo' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Tilleggsinformasjon", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyJournalpostTilleggsinformasjonResponse NyJournalpostTilleggsinformasjon(ArkivOppdatering.NyJournalpostTilleggsinformasjon request);
+        
+        // CODEGEN: Parameter 'merknad' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "Merknad", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyJournalpostMerknadResponse NyJournalpostMerknad(ArkivOppdatering.NyJournalpostMerknad request);
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettAvskrivn" +
+            "ing", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettAvskrivningResponse SlettAvskrivning(ArkivOppdatering.SlettAvskrivning request);
+        
+        // CODEGEN: Parameter 'avskrivning' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyAvskrivning" +
+            "", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyAvskrivningResponse NyAvskrivning(ArkivOppdatering.NyAvskrivning request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostStatus", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        void OppdaterJournalpostStatus(ArkivOppdatering.Journalstatus journalstatus, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostEksternNoekkel", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Journalpost OppdaterJournalpostEksternNoekkel(ArkivOppdatering.EksternNoekkel nokkel, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyDokument", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Dokument NyDokument(ArkivOppdatering.Dokument dokument, bool returnerFil, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettKorrespo" +
+            "ndansepart", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettKorrespondansepartResponse SlettKorrespondansepart(ArkivOppdatering.SlettKorrespondansepart request);
+        
+        // CODEGEN: Parameter 'part' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyKorresponda" +
+            "nsepart", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyKorrespondansepartResponse NyKorrespondansepart(ArkivOppdatering.NyKorrespondansepart request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterJourn" +
+            "alpostAnsvarlig", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Journalpost OppdaterJournalpostAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyJournalpost" +
+            "", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Journalpost NyJournalpost(ArkivOppdatering.Journalpost journalpost, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "sterUnderArbeid", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.FinnJournalposterUnderArbeidResponse FinnJournalposterUnderArbeid(ArkivOppdatering.FinnJournalposterUnderArbeid request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#FinnJournalpo" +
+            "stRestanser", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.FinnJournalpostRestanserResponse FinnJournalpostRestanser(ArkivOppdatering.FinnJournalpostRestanser request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterPlan", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        void OppdaterPlan(ArkivOppdatering.NasjonalArealplanId planid, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        // CODEGEN: Parameter 'systemID' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettSakspart" +
+            "", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettSakspartResponse SlettSakspart(ArkivOppdatering.SlettSakspart request);
+        
+        // CODEGEN: Parameter 'sakspart' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySakspart", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NySakspartResponse NySakspart(ArkivOppdatering.NySakspart request);
+        
+        // CODEGEN: Parameter 'posisjon' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettPunkt", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettPunktResponse SlettPunkt(ArkivOppdatering.SlettPunkt request);
+        
+        // CODEGEN: Parameter 'posisjon' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyPunkt", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyPunktResponse NyPunkt(ArkivOppdatering.NyPunkt request);
+        
+        // CODEGEN: Parameter 'bygninger' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettBygning", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettBygningResponse SlettBygning(ArkivOppdatering.SlettBygning request);
+        
+        // CODEGEN: Parameter 'bygninger' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyBygning", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyBygningResponse NyBygning(ArkivOppdatering.NyBygning request);
+        
+        // CODEGEN: Parameter 'matrikkelnr' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#SlettMatrikke" +
+            "lnummer", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.SlettMatrikkelnummerResponse SlettMatrikkelnummer(ArkivOppdatering.SlettMatrikkelnummer request);
+        
+        // CODEGEN: Parameter 'matrikkelnr' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlArrayItemAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NyMatrikkelnu" +
+            "mmer", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        ArkivOppdatering.NyMatrikkelnummerResponse NyMatrikkelnummer(ArkivOppdatering.NyMatrikkelnummer request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Ansvarlig", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Saksmappe OppdaterMappeAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "EksternNoekkel", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Saksmappe OppdaterMappeEksternNoekkel(ArkivOppdatering.EksternNoekkel nokkel, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#OppdaterMappe" +
+            "Status", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Saksmappe OppdaterMappeStatus(ArkivOppdatering.Saksstatus saksstatuskode, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", ReplyAction="*")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.SystemFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="SystemFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ImplementationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="ImplementationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.OperationalFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="OperationalFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ApplicationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="ApplicationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.FinderFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="FinderFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.FaultContractAttribute(typeof(ArkivOppdatering.ValidationFault), Action="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31/#NySaksmappe", Name="ValidationFault", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Geometri))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kriterie))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kode))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Kontekst))]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ArkivOppdatering.Saksmappe NySaksmappe(ArkivOppdatering.Saksmappe mappe, ArkivOppdatering.ArkivKontekst kontekst);
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SakSystemId))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SakEksternNoekkel))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Saksnummer))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Felles/xml.schema/2012.01.31")]
+    public partial class Saksnoekkel
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Klasse
+    {
+        
+        private string rekkefoelgeField;
+        
+        private Klassifikasjonssystem klassifikasjonssystemField;
+        
+        private string klasseIDField;
+        
+        private bool skjermetKlasseField;
+        
+        private bool skjermetKlasseFieldSpecified;
+        
+        private string ledetekstField;
+        
+        private string tittelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string rekkefoelge
+        {
+            get
+            {
+                return this.rekkefoelgeField;
+            }
+            set
+            {
+                this.rekkefoelgeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Klassifikasjonssystem klassifikasjonssystem
+        {
+            get
+            {
+                return this.klassifikasjonssystemField;
+            }
+            set
+            {
+                this.klassifikasjonssystemField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string klasseID
+        {
+            get
+            {
+                return this.klasseIDField;
+            }
+            set
+            {
+                this.klasseIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public bool skjermetKlasse
+        {
+            get
+            {
+                return this.skjermetKlasseField;
+            }
+            set
+            {
+                this.skjermetKlasseField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool skjermetKlasseSpecified
+        {
+            get
+            {
+                return this.skjermetKlasseFieldSpecified;
+            }
+            set
+            {
+                this.skjermetKlasseFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string ledetekst
+        {
+            get
+            {
+                return this.ledetekstField;
+            }
+            set
+            {
+                this.ledetekstField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string tittel
+        {
+            get
+            {
+                return this.tittelField;
+            }
+            set
+            {
+                this.tittelField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Klassifikasjonssystem : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Landkode))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnkelAdressetype))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Variantformat))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(TilknyttetRegistreringSom))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Format))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumentstatus))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumenttype))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Tilgangsrestriksjon))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SkjermingsHjemmel))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SkjermingOpphorerAksjon))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Saksstatus))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Mappetype))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Korrespondanseparttype))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Klassifikasjonssystem))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Kassasjonsvedtak))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalstatus))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalposttype))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalenhet))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Informasjonstype))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Forsendelsesmaate))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumentmedium))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Avskrivningsmaate))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Arkivdel))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SakspartRolle))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PersonidentifikatorType))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(KoordinatsystemKode))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kodeliste/xml.schema/2012.01.31")]
+    public partial class Kode
+    {
+        
+        private string kodeverdiField;
+        
+        private string kodebeskrivelseField;
+        
+        private bool erGyldigField;
+        
+        private bool erGyldigFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string kodeverdi
+        {
+            get
+            {
+                return this.kodeverdiField;
+            }
+            set
+            {
+                this.kodeverdiField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string kodebeskrivelse
+        {
+            get
+            {
+                return this.kodebeskrivelseField;
+            }
+            set
+            {
+                this.kodebeskrivelseField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public bool erGyldig
+        {
+            get
+            {
+                return this.erGyldigField;
+            }
+            set
+            {
+                this.erGyldigField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool erGyldigSpecified
+        {
+            get
+            {
+                return this.erGyldigFieldSpecified;
+            }
+            set
+            {
+                this.erGyldigFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class Landkode : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class EnkelAdressetype : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Variantformat : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class TilknyttetRegistreringSom : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Format : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Dokumentstatus : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Dokumenttype : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Tilgangsrestriksjon : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class SkjermingsHjemmel : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class SkjermingOpphorerAksjon : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Saksstatus : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Mappetype : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Korrespondanseparttype : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Kassasjonsvedtak : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Journalstatus : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Journalposttype : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Journalenhet : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Informasjonstype : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Forsendelsesmaate : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Dokumentmedium : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Avskrivningsmaate : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Arkivdel : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class SakspartRolle : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
+    public partial class PersonidentifikatorType : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class KoordinatsystemKode : Kode
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Saksmappe
+    {
+        
+        private string systemIDField;
+        
+        private Saksnummer saksnrField;
+        
+        private Mappetype mappetypeField;
+        
+        private System.DateTime saksdatoField;
+        
+        private bool saksdatoFieldSpecified;
+        
+        private string tittelField;
+        
+        private string offentligTittelField;
+        
+        private bool skjermetTittelField;
+        
+        private bool skjermetTittelFieldSpecified;
+        
+        private Skjerming skjermingField;
+        
+        private Saksstatus saksstatusField;
+        
+        private Dokumentmedium dokumentmediumField;
+        
+        private Arkivdel referanseArkivdelField;
+        
+        private Journalenhet journalenhetField;
+        
+        private string bevaringstidField;
+        
+        private Kassasjonsvedtak kassasjonsvedtakField;
+        
+        private System.DateTime kassasjonsdatoField;
+        
+        private bool kassasjonsdatoFieldSpecified;
+        
+        private string prosjektField;
+        
+        private string administrativEnhetInitField;
+        
+        private string administrativEnhetField;
+        
+        private string saksansvarligInitField;
+        
+        private string saksansvarligField;
+        
+        private string tilgangsgruppeNavnField;
+        
+        private Matrikkelnummer[] matrikkelnummerField;
+        
+        private Klasse[] klasseField;
+        
+        private Sakspart[] sakspartField;
+        
+        private Punkt[] punktField;
+        
+        private Tilleggsinformasjon[] tilleggsinformasjonField;
+        
+        private ByggIdent[] byggIdentField;
+        
+        private EksternNoekkel referanseEksternNoekkelField;
+        
+        private Merknad[] merknaderField;
+        
+        private NasjonalArealplanId planIdentField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Saksnummer saksnr
+        {
+            get
+            {
+                return this.saksnrField;
+            }
+            set
+            {
+                this.saksnrField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public Mappetype mappetype
+        {
+            get
+            {
+                return this.mappetypeField;
+            }
+            set
+            {
+                this.mappetypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public System.DateTime saksdato
+        {
+            get
+            {
+                return this.saksdatoField;
+            }
+            set
+            {
+                this.saksdatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool saksdatoSpecified
+        {
+            get
+            {
+                return this.saksdatoFieldSpecified;
+            }
+            set
+            {
+                this.saksdatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string tittel
+        {
+            get
+            {
+                return this.tittelField;
+            }
+            set
+            {
+                this.tittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string offentligTittel
+        {
+            get
+            {
+                return this.offentligTittelField;
+            }
+            set
+            {
+                this.offentligTittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public bool skjermetTittel
+        {
+            get
+            {
+                return this.skjermetTittelField;
+            }
+            set
+            {
+                this.skjermetTittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool skjermetTittelSpecified
+        {
+            get
+            {
+                return this.skjermetTittelFieldSpecified;
+            }
+            set
+            {
+                this.skjermetTittelFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public Skjerming skjerming
+        {
+            get
+            {
+                return this.skjermingField;
+            }
+            set
+            {
+                this.skjermingField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public Saksstatus saksstatus
+        {
+            get
+            {
+                return this.saksstatusField;
+            }
+            set
+            {
+                this.saksstatusField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public Dokumentmedium dokumentmedium
+        {
+            get
+            {
+                return this.dokumentmediumField;
+            }
+            set
+            {
+                this.dokumentmediumField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public Arkivdel referanseArkivdel
+        {
+            get
+            {
+                return this.referanseArkivdelField;
+            }
+            set
+            {
+                this.referanseArkivdelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public Journalenhet journalenhet
+        {
+            get
+            {
+                return this.journalenhetField;
+            }
+            set
+            {
+                this.journalenhetField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public string bevaringstid
+        {
+            get
+            {
+                return this.bevaringstidField;
+            }
+            set
+            {
+                this.bevaringstidField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public Kassasjonsvedtak kassasjonsvedtak
+        {
+            get
+            {
+                return this.kassasjonsvedtakField;
+            }
+            set
+            {
+                this.kassasjonsvedtakField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=14)]
+        public System.DateTime kassasjonsdato
+        {
+            get
+            {
+                return this.kassasjonsdatoField;
+            }
+            set
+            {
+                this.kassasjonsdatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool kassasjonsdatoSpecified
+        {
+            get
+            {
+                return this.kassasjonsdatoFieldSpecified;
+            }
+            set
+            {
+                this.kassasjonsdatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=15)]
+        public string prosjekt
+        {
+            get
+            {
+                return this.prosjektField;
+            }
+            set
+            {
+                this.prosjektField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=16)]
+        public string administrativEnhetInit
+        {
+            get
+            {
+                return this.administrativEnhetInitField;
+            }
+            set
+            {
+                this.administrativEnhetInitField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=17)]
+        public string administrativEnhet
+        {
+            get
+            {
+                return this.administrativEnhetField;
+            }
+            set
+            {
+                this.administrativEnhetField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=18)]
+        public string saksansvarligInit
+        {
+            get
+            {
+                return this.saksansvarligInitField;
+            }
+            set
+            {
+                this.saksansvarligInitField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=19)]
+        public string saksansvarlig
+        {
+            get
+            {
+                return this.saksansvarligField;
+            }
+            set
+            {
+                this.saksansvarligField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=20)]
+        public string tilgangsgruppeNavn
+        {
+            get
+            {
+                return this.tilgangsgruppeNavnField;
+            }
+            set
+            {
+                this.tilgangsgruppeNavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=21)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
+        public Matrikkelnummer[] Matrikkelnummer
+        {
+            get
+            {
+                return this.matrikkelnummerField;
+            }
+            set
+            {
+                this.matrikkelnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=22)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Klasse[] klasse
+        {
+            get
+            {
+                return this.klasseField;
+            }
+            set
+            {
+                this.klasseField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=23)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Sakspart[] sakspart
+        {
+            get
+            {
+                return this.sakspartField;
+            }
+            set
+            {
+                this.sakspartField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=24)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31", IsNullable=false)]
+        public Punkt[] Punkt
+        {
+            get
+            {
+                return this.punktField;
+            }
+            set
+            {
+                this.punktField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=25)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Tilleggsinformasjon[] tilleggsinformasjon
+        {
+            get
+            {
+                return this.tilleggsinformasjonField;
+            }
+            set
+            {
+                this.tilleggsinformasjonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=26)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
+        public ByggIdent[] ByggIdent
+        {
+            get
+            {
+                return this.byggIdentField;
+            }
+            set
+            {
+                this.byggIdentField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=27)]
+        public EksternNoekkel referanseEksternNoekkel
+        {
+            get
+            {
+                return this.referanseEksternNoekkelField;
+            }
+            set
+            {
+                this.referanseEksternNoekkelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=28)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Merknad[] merknader
+        {
+            get
+            {
+                return this.merknaderField;
+            }
+            set
+            {
+                this.merknaderField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=29)]
+        public NasjonalArealplanId planIdent
+        {
+            get
+            {
+                return this.planIdentField;
+            }
+            set
+            {
+                this.planIdentField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Felles/xml.schema/2012.01.31")]
+    public partial class Saksnummer : Saksnoekkel
+    {
+        
+        private string saksaarField;
+        
+        private string sakssekvensnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string saksaar
+        {
+            get
+            {
+                return this.saksaarField;
+            }
+            set
+            {
+                this.saksaarField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
+        public string sakssekvensnummer
+        {
+            get
+            {
+                return this.sakssekvensnummerField;
+            }
+            set
+            {
+                this.sakssekvensnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Skjerming
+    {
+        
+        private Tilgangsrestriksjon tilgangsrestriksjonField;
+        
+        private string skjermingshjemmelField;
+        
+        private System.DateTime skjermingOpphoererDatoField;
+        
+        private bool skjermingOpphoererDatoFieldSpecified;
+        
+        private SkjermingOpphorerAksjon skjermingOpphoererAksjonField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Tilgangsrestriksjon tilgangsrestriksjon
+        {
+            get
+            {
+                return this.tilgangsrestriksjonField;
+            }
+            set
+            {
+                this.tilgangsrestriksjonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string skjermingshjemmel
+        {
+            get
+            {
+                return this.skjermingshjemmelField;
+            }
+            set
+            {
+                this.skjermingshjemmelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public System.DateTime skjermingOpphoererDato
+        {
+            get
+            {
+                return this.skjermingOpphoererDatoField;
+            }
+            set
+            {
+                this.skjermingOpphoererDatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool skjermingOpphoererDatoSpecified
+        {
+            get
+            {
+                return this.skjermingOpphoererDatoFieldSpecified;
+            }
+            set
+            {
+                this.skjermingOpphoererDatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public SkjermingOpphorerAksjon skjermingOpphoererAksjon
+        {
+            get
+            {
+                return this.skjermingOpphoererAksjonField;
+            }
+            set
+            {
+                this.skjermingOpphoererAksjonField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31")]
+    public partial class Matrikkelnummer
+    {
+        
+        private string kommunenummerField;
+        
+        private string gaardsnummerField;
+        
+        private string bruksnummerField;
+        
+        private string festenummerField;
+        
+        private string seksjonsnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string kommunenummer
+        {
+            get
+            {
+                return this.kommunenummerField;
+            }
+            set
+            {
+                this.kommunenummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
+        public string gaardsnummer
+        {
+            get
+            {
+                return this.gaardsnummerField;
+            }
+            set
+            {
+                this.gaardsnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=2)]
+        public string bruksnummer
+        {
+            get
+            {
+                return this.bruksnummerField;
+            }
+            set
+            {
+                this.bruksnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=3)]
+        public string festenummer
+        {
+            get
+            {
+                return this.festenummerField;
+            }
+            set
+            {
+                this.festenummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=4)]
+        public string seksjonsnummer
+        {
+            get
+            {
+                return this.seksjonsnummerField;
+            }
+            set
+            {
+                this.seksjonsnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Sakspart
+    {
+        
+        private string systemIDField;
+        
+        private bool skjermetSakspartField;
+        
+        private bool skjermetSakspartFieldSpecified;
+        
+        private string kortnavnField;
+        
+        private string kontaktpersonField;
+        
+        private SakspartRolle sakspartRolleField;
+        
+        private string merknadField;
+        
+        private Kontakt kontaktField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool skjermetSakspart
+        {
+            get
+            {
+                return this.skjermetSakspartField;
+            }
+            set
+            {
+                this.skjermetSakspartField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool skjermetSakspartSpecified
+        {
+            get
+            {
+                return this.skjermetSakspartFieldSpecified;
+            }
+            set
+            {
+                this.skjermetSakspartFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string kortnavn
+        {
+            get
+            {
+                return this.kortnavnField;
+            }
+            set
+            {
+                this.kortnavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string kontaktperson
+        {
+            get
+            {
+                return this.kontaktpersonField;
+            }
+            set
+            {
+                this.kontaktpersonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public SakspartRolle sakspartRolle
+        {
+            get
+            {
+                return this.sakspartRolleField;
+            }
+            set
+            {
+                this.sakspartRolleField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string merknad
+        {
+            get
+            {
+                return this.merknadField;
+            }
+            set
+            {
+                this.merknadField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public Kontakt Kontakt
+        {
+            get
+            {
+                return this.kontaktField;
+            }
+            set
+            {
+                this.kontaktField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Person))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Organisasjon))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
+    public partial class Kontakt
+    {
+        
+        private string navnField;
+        
+        private EnkelAdresse[] adresserField;
+        
+        private ElektroniskAdresse[] elektroniskeAdresserField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string navn
+        {
+            get
+            {
+                return this.navnField;
+            }
+            set
+            {
+                this.navnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=1)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31", IsNullable=false)]
+        public EnkelAdresse[] adresser
+        {
+            get
+            {
+                return this.adresserField;
+            }
+            set
+            {
+                this.adresserField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31", IsNullable=false)]
+        public ElektroniskAdresse[] elektroniskeAdresser
+        {
+            get
+            {
+                return this.elektroniskeAdresserField;
+            }
+            set
+            {
+                this.elektroniskeAdresserField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class EnkelAdresse
+    {
+        
+        private EnkelAdressetype adressetypeField;
+        
+        private string adresselinje1Field;
+        
+        private string adresselinje2Field;
+        
+        private PostadministrativeOmraader postadresseField;
+        
+        private Landkode landkodeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public EnkelAdressetype adressetype
+        {
+            get
+            {
+                return this.adressetypeField;
+            }
+            set
+            {
+                this.adressetypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string adresselinje1
+        {
+            get
+            {
+                return this.adresselinje1Field;
+            }
+            set
+            {
+                this.adresselinje1Field = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string adresselinje2
+        {
+            get
+            {
+                return this.adresselinje2Field;
+            }
+            set
+            {
+                this.adresselinje2Field = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public PostadministrativeOmraader postadresse
+        {
+            get
+            {
+                return this.postadresseField;
+            }
+            set
+            {
+                this.postadresseField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public Landkode landkode
+        {
+            get
+            {
+                return this.landkodeField;
+            }
+            set
+            {
+                this.landkodeField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class PostadministrativeOmraader
+    {
+        
+        private string postnummerField;
+        
+        private string poststedField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string postnummer
+        {
+            get
+            {
+                return this.postnummerField;
+            }
+            set
+            {
+                this.postnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string poststed
+        {
+            get
+            {
+                return this.poststedField;
+            }
+            set
+            {
+                this.poststedField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Meldingsboks))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Telefon))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Faks))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Epost))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class ElektroniskAdresse
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class Meldingsboks : ElektroniskAdresse
+    {
+        
+        private string tilbyderField;
+        
+        private string meldingsboksadresseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string tilbyder
+        {
+            get
+            {
+                return this.tilbyderField;
+            }
+            set
+            {
+                this.tilbyderField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string meldingsboksadresse
+        {
+            get
+            {
+                return this.meldingsboksadresseField;
+            }
+            set
+            {
+                this.meldingsboksadresseField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class Telefon : ElektroniskAdresse
+    {
+        
+        private string telefonnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string telefonnummer
+        {
+            get
+            {
+                return this.telefonnummerField;
+            }
+            set
+            {
+                this.telefonnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class Faks : ElektroniskAdresse
+    {
+        
+        private string faksnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string faksnummer
+        {
+            get
+            {
+                return this.faksnummerField;
+            }
+            set
+            {
+                this.faksnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Adresse/xml.schema/2012.01.31")]
+    public partial class Epost : ElektroniskAdresse
+    {
+        
+        private string epostadresseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string epostadresse
+        {
+            get
+            {
+                return this.epostadresseField;
+            }
+            set
+            {
+                this.epostadresseField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
+    public partial class Person : Kontakt
+    {
+        
+        private Personidentifikator personidField;
+        
+        private string etternavnField;
+        
+        private string fornavnField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Personidentifikator personid
+        {
+            get
+            {
+                return this.personidField;
+            }
+            set
+            {
+                this.personidField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string etternavn
+        {
+            get
+            {
+                return this.etternavnField;
+            }
+            set
+            {
+                this.etternavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string fornavn
+        {
+            get
+            {
+                return this.fornavnField;
+            }
+            set
+            {
+                this.fornavnField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
+    public partial class Personidentifikator
+    {
+        
+        private string personidentifikatorNrField;
+        
+        private PersonidentifikatorType personidentifikatorTypeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string personidentifikatorNr
+        {
+            get
+            {
+                return this.personidentifikatorNrField;
+            }
+            set
+            {
+                this.personidentifikatorNrField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public PersonidentifikatorType personidentifikatorType
+        {
+            get
+            {
+                return this.personidentifikatorTypeField;
+            }
+            set
+            {
+                this.personidentifikatorTypeField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Kontakt/xml.schema/2012.01.31")]
+    public partial class Organisasjon : Kontakt
+    {
+        
+        private string organisasjonsnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string organisasjonsnummer
+        {
+            get
+            {
+                return this.organisasjonsnummerField;
+            }
+            set
+            {
+                this.organisasjonsnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Punkt : Geometri
+    {
+        
+        private Koordinat posisjonField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Koordinat posisjon
+        {
+            get
+            {
+                return this.posisjonField;
+            }
+            set
+            {
+                this.posisjonField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Koordinat
+    {
+        
+        private double xField;
+        
+        private double yField;
+        
+        private double zField;
+        
+        private bool zFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public double x
+        {
+            get
+            {
+                return this.xField;
+            }
+            set
+            {
+                this.xField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public double y
+        {
+            get
+            {
+                return this.yField;
+            }
+            set
+            {
+                this.yField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public double z
+        {
+            get
+            {
+                return this.zField;
+            }
+            set
+            {
+                this.zField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool zSpecified
+        {
+            get
+            {
+                return this.zFieldSpecified;
+            }
+            set
+            {
+                this.zFieldSpecified = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bbox))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Punkt))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Kurve))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Flate))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Geometri
+    {
+        
+        private KoordinatsystemKode koordinatsystemField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public KoordinatsystemKode koordinatsystem
+        {
+            get
+            {
+                return this.koordinatsystemField;
+            }
+            set
+            {
+                this.koordinatsystemField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Bbox : Geometri
+    {
+        
+        private Koordinat nedreVenstreField;
+        
+        private Koordinat oevreHoeyreField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Koordinat nedreVenstre
+        {
+            get
+            {
+                return this.nedreVenstreField;
+            }
+            set
+            {
+                this.nedreVenstreField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Koordinat oevreHoeyre
+        {
+            get
+            {
+                return this.oevreHoeyreField;
+            }
+            set
+            {
+                this.oevreHoeyreField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Kurve : Geometri
+    {
+        
+        private Koordinat[] linjeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Koordinat[] linje
+        {
+            get
+            {
+                return this.linjeField;
+            }
+            set
+            {
+                this.linjeField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Flate : Geometri
+    {
+        
+        private Ring[] indreAvgrensningField;
+        
+        private Ring ytreAvgrensningField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Ring[] indreAvgrensning
+        {
+            get
+            {
+                return this.indreAvgrensningField;
+            }
+            set
+            {
+                this.indreAvgrensningField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Ring ytreAvgrensning
+        {
+            get
+            {
+                return this.ytreAvgrensningField;
+            }
+            set
+            {
+                this.ytreAvgrensningField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31")]
+    public partial class Ring
+    {
+        
+        private Koordinat[] lukketKurveField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Koordinat[] lukketKurve
+        {
+            get
+            {
+                return this.lukketKurveField;
+            }
+            set
+            {
+                this.lukketKurveField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Tilleggsinformasjon
+    {
+        
+        private string systemIDField;
+        
+        private string rekkefoelgeField;
+        
+        private Informasjonstype informasjonstypeField;
+        
+        private Tilgangsrestriksjon tilgangsrestriksjonField;
+        
+        private System.DateTime oppbevaresTilDatoField;
+        
+        private bool oppbevaresTilDatoFieldSpecified;
+        
+        private string informasjonField;
+        
+        private string tilgangsgruppeNavnField;
+        
+        private System.DateTime registrertDatoField;
+        
+        private bool registrertDatoFieldSpecified;
+        
+        private string registrertAvField;
+        
+        private string registrertAvInitField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string rekkefoelge
+        {
+            get
+            {
+                return this.rekkefoelgeField;
+            }
+            set
+            {
+                this.rekkefoelgeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public Informasjonstype informasjonstype
+        {
+            get
+            {
+                return this.informasjonstypeField;
+            }
+            set
+            {
+                this.informasjonstypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public Tilgangsrestriksjon tilgangsrestriksjon
+        {
+            get
+            {
+                return this.tilgangsrestriksjonField;
+            }
+            set
+            {
+                this.tilgangsrestriksjonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public System.DateTime oppbevaresTilDato
+        {
+            get
+            {
+                return this.oppbevaresTilDatoField;
+            }
+            set
+            {
+                this.oppbevaresTilDatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool oppbevaresTilDatoSpecified
+        {
+            get
+            {
+                return this.oppbevaresTilDatoFieldSpecified;
+            }
+            set
+            {
+                this.oppbevaresTilDatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string informasjon
+        {
+            get
+            {
+                return this.informasjonField;
+            }
+            set
+            {
+                this.informasjonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string tilgangsgruppeNavn
+        {
+            get
+            {
+                return this.tilgangsgruppeNavnField;
+            }
+            set
+            {
+                this.tilgangsgruppeNavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public System.DateTime registrertDato
+        {
+            get
+            {
+                return this.registrertDatoField;
+            }
+            set
+            {
+                this.registrertDatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool registrertDatoSpecified
+        {
+            get
+            {
+                return this.registrertDatoFieldSpecified;
+            }
+            set
+            {
+                this.registrertDatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public string registrertAv
+        {
+            get
+            {
+                return this.registrertAvField;
+            }
+            set
+            {
+                this.registrertAvField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public string registrertAvInit
+        {
+            get
+            {
+                return this.registrertAvInitField;
+            }
+            set
+            {
+                this.registrertAvInitField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31")]
+    public partial class ByggIdent
+    {
+        
+        private string bygningsNummerField;
+        
+        private string endringsloepenummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string bygningsNummer
+        {
+            get
+            {
+                return this.bygningsNummerField;
+            }
+            set
+            {
+                this.bygningsNummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
+        public string endringsloepenummer
+        {
+            get
+            {
+                return this.endringsloepenummerField;
+            }
+            set
+            {
+                this.endringsloepenummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class EksternNoekkel
+    {
+        
+        private string fagsystemField;
+        
+        private string noekkelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string fagsystem
+        {
+            get
+            {
+                return this.fagsystemField;
+            }
+            set
+            {
+                this.fagsystemField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string noekkel
+        {
+            get
+            {
+                return this.noekkelField;
+            }
+            set
+            {
+                this.noekkelField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Merknad
+    {
+        
+        private string systemIDField;
+        
+        private string merknadstekstField;
+        
+        private string merknadstypeField;
+        
+        private System.DateTime merknadsdatoField;
+        
+        private bool merknadsdatoFieldSpecified;
+        
+        private string merknadRegistrertAvField;
+        
+        private string merknadRegistrertAvInitField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string merknadstekst
+        {
+            get
+            {
+                return this.merknadstekstField;
+            }
+            set
+            {
+                this.merknadstekstField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string merknadstype
+        {
+            get
+            {
+                return this.merknadstypeField;
+            }
+            set
+            {
+                this.merknadstypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public System.DateTime merknadsdato
+        {
+            get
+            {
+                return this.merknadsdatoField;
+            }
+            set
+            {
+                this.merknadsdatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool merknadsdatoSpecified
+        {
+            get
+            {
+                return this.merknadsdatoFieldSpecified;
+            }
+            set
+            {
+                this.merknadsdatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string merknadRegistrertAv
+        {
+            get
+            {
+                return this.merknadRegistrertAvField;
+            }
+            set
+            {
+                this.merknadRegistrertAvField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string merknadRegistrertAvInit
+        {
+            get
+            {
+                return this.merknadRegistrertAvInitField;
+            }
+            set
+            {
+                this.merknadRegistrertAvInitField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
+    public partial class NasjonalArealplanId
+    {
+        
+        private Administrativenhetsnummer nummerField;
+        
+        private string planidentifikasjonField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Administrativenhetsnummer nummer
+        {
+            get
+            {
+                return this.nummerField;
+            }
+            set
+            {
+                this.nummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string planidentifikasjon
+        {
+            get
+            {
+                return this.planidentifikasjonField;
+            }
+            set
+            {
+                this.planidentifikasjonField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Stat))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Kommune))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Fylke))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
+    public partial class Administrativenhetsnummer
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
+    public partial class Stat : Administrativenhetsnummer
+    {
+        
+        private string landskodeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string landskode
+        {
+            get
+            {
+                return this.landskodeField;
+            }
+            set
+            {
+                this.landskodeField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
+    public partial class Kommune : Administrativenhetsnummer
+    {
+        
+        private string kommunenummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string kommunenummer
+        {
+            get
+            {
+                return this.kommunenummerField;
+            }
+            set
+            {
+                this.kommunenummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Plan/Felles/xml.schema/2012.01.31")]
+    public partial class Fylke : Administrativenhetsnummer
+    {
+        
+        private string fylkesnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string fylkesnummer
+        {
+            get
+            {
+                return this.fylkesnummerField;
+            }
+            set
+            {
+                this.fylkesnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Soekefelt))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Ansvarlig))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BboxKriterie))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
+    public partial class Kriterie
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
+    public partial class Soekefelt : Kriterie
+    {
+        
+        private string feltnavnField;
+        
+        private string feltverdiField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string feltnavn
+        {
+            get
+            {
+                return this.feltnavnField;
+            }
+            set
+            {
+                this.feltnavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string feltverdi
+        {
+            get
+            {
+                return this.feltverdiField;
+            }
+            set
+            {
+                this.feltverdiField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
+    public partial class Ansvarlig : Kriterie
+    {
+        
+        private AnsvarligEnum eierField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public AnsvarligEnum eier
+        {
+            get
+            {
+                return this.eierField;
+            }
+            set
+            {
+                this.eierField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
+    public enum AnsvarligEnum
+    {
+        
+        /// <remarks/>
+        EGEN,
+        
+        /// <remarks/>
+        EGENENHET,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Filter/xml.schema/2012.01.31")]
+    public partial class BboxKriterie : Kriterie
+    {
+        
+        private Bbox bboxField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Bbox bbox
+        {
+            get
+            {
+                return this.bboxField;
+            }
+            set
+            {
+                this.bboxField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Filreferanse))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Filinnhold))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Fil
+    {
+        
+        private string filnavnField;
+        
+        private string mimeTypeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string filnavn
+        {
+            get
+            {
+                return this.filnavnField;
+            }
+            set
+            {
+                this.filnavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string mimeType
+        {
+            get
+            {
+                return this.mimeTypeField;
+            }
+            set
+            {
+                this.mimeTypeField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Filreferanse : Fil
+    {
+        
+        private string uriField;
+        
+        private string kvitteringUriField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="anyURI", Order=0)]
+        public string uri
+        {
+            get
+            {
+                return this.uriField;
+            }
+            set
+            {
+                this.uriField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="anyURI", Order=1)]
+        public string kvitteringUri
+        {
+            get
+            {
+                return this.kvitteringUriField;
+            }
+            set
+            {
+                this.kvitteringUriField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Filinnhold : Fil
+    {
+        
+        private byte[] base64Field;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary", Order=0)]
+        public byte[] base64
+        {
+            get
+            {
+                return this.base64Field;
+            }
+            set
+            {
+                this.base64Field = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Dokument/xml.schema/2012.01.31")]
+    public partial class Dokument
+    {
+        
+        private string systemIDField;
+        
+        private string dokumentnummerField;
+        
+        private TilknyttetRegistreringSom tilknyttetRegistreringSomField;
+        
+        private Dokumenttype dokumenttypeField;
+        
+        private string tittelField;
+        
+        private Dokumentstatus dokumentstatusField;
+        
+        private Variantformat variantformatField;
+        
+        private Format formatField;
+        
+        private string referanseJournalpostSystemIDField;
+        
+        private Fil filField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string dokumentnummer
+        {
+            get
+            {
+                return this.dokumentnummerField;
+            }
+            set
+            {
+                this.dokumentnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public TilknyttetRegistreringSom tilknyttetRegistreringSom
+        {
+            get
+            {
+                return this.tilknyttetRegistreringSomField;
+            }
+            set
+            {
+                this.tilknyttetRegistreringSomField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public Dokumenttype dokumenttype
+        {
+            get
+            {
+                return this.dokumenttypeField;
+            }
+            set
+            {
+                this.dokumenttypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string tittel
+        {
+            get
+            {
+                return this.tittelField;
+            }
+            set
+            {
+                this.tittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public Dokumentstatus dokumentstatus
+        {
+            get
+            {
+                return this.dokumentstatusField;
+            }
+            set
+            {
+                this.dokumentstatusField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public Variantformat variantformat
+        {
+            get
+            {
+                return this.variantformatField;
+            }
+            set
+            {
+                this.variantformatField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public Format format
+        {
+            get
+            {
+                return this.formatField;
+            }
+            set
+            {
+                this.formatField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public string referanseJournalpostSystemID
+        {
+            get
+            {
+                return this.referanseJournalpostSystemIDField;
+            }
+            set
+            {
+                this.referanseJournalpostSystemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public Fil Fil
+        {
+            get
+            {
+                return this.filField;
+            }
+            set
+            {
+                this.filField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Korrespondansepart
+    {
+        
+        private string systemIDField;
+        
+        private Korrespondanseparttype korrespondanseparttypeField;
+        
+        private string behandlingsansvarligField;
+        
+        private bool skjermetKorrespondansepartField;
+        
+        private bool skjermetKorrespondansepartFieldSpecified;
+        
+        private string kortnavnField;
+        
+        private string deresReferanseField;
+        
+        private Journalenhet journalenhetField;
+        
+        private System.DateTime fristBesvarelseField;
+        
+        private bool fristBesvarelseFieldSpecified;
+        
+        private Forsendelsesmaate forsendelsesmaateField;
+        
+        private string administrativEnhetInitField;
+        
+        private string administrativEnhetField;
+        
+        private string saksbehandlerInitField;
+        
+        private string saksbehandlerField;
+        
+        private Kontakt kontaktField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Korrespondanseparttype korrespondanseparttype
+        {
+            get
+            {
+                return this.korrespondanseparttypeField;
+            }
+            set
+            {
+                this.korrespondanseparttypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string behandlingsansvarlig
+        {
+            get
+            {
+                return this.behandlingsansvarligField;
+            }
+            set
+            {
+                this.behandlingsansvarligField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public bool skjermetKorrespondansepart
+        {
+            get
+            {
+                return this.skjermetKorrespondansepartField;
+            }
+            set
+            {
+                this.skjermetKorrespondansepartField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool skjermetKorrespondansepartSpecified
+        {
+            get
+            {
+                return this.skjermetKorrespondansepartFieldSpecified;
+            }
+            set
+            {
+                this.skjermetKorrespondansepartFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string kortnavn
+        {
+            get
+            {
+                return this.kortnavnField;
+            }
+            set
+            {
+                this.kortnavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string deresReferanse
+        {
+            get
+            {
+                return this.deresReferanseField;
+            }
+            set
+            {
+                this.deresReferanseField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public Journalenhet journalenhet
+        {
+            get
+            {
+                return this.journalenhetField;
+            }
+            set
+            {
+                this.journalenhetField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public System.DateTime fristBesvarelse
+        {
+            get
+            {
+                return this.fristBesvarelseField;
+            }
+            set
+            {
+                this.fristBesvarelseField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool fristBesvarelseSpecified
+        {
+            get
+            {
+                return this.fristBesvarelseFieldSpecified;
+            }
+            set
+            {
+                this.fristBesvarelseFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public Forsendelsesmaate forsendelsesmaate
+        {
+            get
+            {
+                return this.forsendelsesmaateField;
+            }
+            set
+            {
+                this.forsendelsesmaateField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public string administrativEnhetInit
+        {
+            get
+            {
+                return this.administrativEnhetInitField;
+            }
+            set
+            {
+                this.administrativEnhetInitField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public string administrativEnhet
+        {
+            get
+            {
+                return this.administrativEnhetField;
+            }
+            set
+            {
+                this.administrativEnhetField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public string saksbehandlerInit
+        {
+            get
+            {
+                return this.saksbehandlerInitField;
+            }
+            set
+            {
+                this.saksbehandlerInitField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public string saksbehandler
+        {
+            get
+            {
+                return this.saksbehandlerField;
+            }
+            set
+            {
+                this.saksbehandlerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public Kontakt Kontakt
+        {
+            get
+            {
+                return this.kontaktField;
+            }
+            set
+            {
+                this.kontaktField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Journalpost
+    {
+        
+        private string systemIDField;
+        
+        private Journalnummer journalnummerField;
+        
+        private string journalpostnummerField;
+        
+        private System.DateTime journaldatoField;
+        
+        private bool journaldatoFieldSpecified;
+        
+        private Journalposttype journalposttypeField;
+        
+        private System.DateTime dokumentetsDatoField;
+        
+        private bool dokumentetsDatoFieldSpecified;
+        
+        private Journalstatus journalstatusField;
+        
+        private string tittelField;
+        
+        private bool skjermetTittelField;
+        
+        private bool skjermetTittelFieldSpecified;
+        
+        private System.DateTime forfallsdatoField;
+        
+        private bool forfallsdatoFieldSpecified;
+        
+        private Skjerming skjermingField;
+        
+        private Arkivdel referanseArkivdelField;
+        
+        private string tilleggskodeField;
+        
+        private string antallVedleggField;
+        
+        private string offentligTittelField;
+        
+        private Saksnummer saksnrField;
+        
+        private string tilgangsgruppeNavnField;
+        
+        private SakSystemId referanseSakSystemIDField;
+        
+        private Korrespondansepart[] korrespondansepartField;
+        
+        private EksternNoekkel referanseEksternNoekkelField;
+        
+        private EksternNoekkel referanseMappeEksternNoekkelField;
+        
+        private Avskrivning[] referanseAvskrivningerField;
+        
+        private Merknad[] merknaderField;
+        
+        private Tilleggsinformasjon[] tilleggsinformasjonField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Journalnummer journalnummer
+        {
+            get
+            {
+                return this.journalnummerField;
+            }
+            set
+            {
+                this.journalnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string journalpostnummer
+        {
+            get
+            {
+                return this.journalpostnummerField;
+            }
+            set
+            {
+                this.journalpostnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public System.DateTime journaldato
+        {
+            get
+            {
+                return this.journaldatoField;
+            }
+            set
+            {
+                this.journaldatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool journaldatoSpecified
+        {
+            get
+            {
+                return this.journaldatoFieldSpecified;
+            }
+            set
+            {
+                this.journaldatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public Journalposttype journalposttype
+        {
+            get
+            {
+                return this.journalposttypeField;
+            }
+            set
+            {
+                this.journalposttypeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public System.DateTime dokumentetsDato
+        {
+            get
+            {
+                return this.dokumentetsDatoField;
+            }
+            set
+            {
+                this.dokumentetsDatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool dokumentetsDatoSpecified
+        {
+            get
+            {
+                return this.dokumentetsDatoFieldSpecified;
+            }
+            set
+            {
+                this.dokumentetsDatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public Journalstatus journalstatus
+        {
+            get
+            {
+                return this.journalstatusField;
+            }
+            set
+            {
+                this.journalstatusField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string tittel
+        {
+            get
+            {
+                return this.tittelField;
+            }
+            set
+            {
+                this.tittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public bool skjermetTittel
+        {
+            get
+            {
+                return this.skjermetTittelField;
+            }
+            set
+            {
+                this.skjermetTittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool skjermetTittelSpecified
+        {
+            get
+            {
+                return this.skjermetTittelFieldSpecified;
+            }
+            set
+            {
+                this.skjermetTittelFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public System.DateTime forfallsdato
+        {
+            get
+            {
+                return this.forfallsdatoField;
+            }
+            set
+            {
+                this.forfallsdatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool forfallsdatoSpecified
+        {
+            get
+            {
+                return this.forfallsdatoFieldSpecified;
+            }
+            set
+            {
+                this.forfallsdatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public Skjerming skjerming
+        {
+            get
+            {
+                return this.skjermingField;
+            }
+            set
+            {
+                this.skjermingField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public Arkivdel referanseArkivdel
+        {
+            get
+            {
+                return this.referanseArkivdelField;
+            }
+            set
+            {
+                this.referanseArkivdelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public string tilleggskode
+        {
+            get
+            {
+                return this.tilleggskodeField;
+            }
+            set
+            {
+                this.tilleggskodeField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public string antallVedlegg
+        {
+            get
+            {
+                return this.antallVedleggField;
+            }
+            set
+            {
+                this.antallVedleggField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=14)]
+        public string offentligTittel
+        {
+            get
+            {
+                return this.offentligTittelField;
+            }
+            set
+            {
+                this.offentligTittelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=15)]
+        public Saksnummer saksnr
+        {
+            get
+            {
+                return this.saksnrField;
+            }
+            set
+            {
+                this.saksnrField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=16)]
+        public string tilgangsgruppeNavn
+        {
+            get
+            {
+                return this.tilgangsgruppeNavnField;
+            }
+            set
+            {
+                this.tilgangsgruppeNavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=17)]
+        public SakSystemId referanseSakSystemID
+        {
+            get
+            {
+                return this.referanseSakSystemIDField;
+            }
+            set
+            {
+                this.referanseSakSystemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=18)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Korrespondansepart[] korrespondansepart
+        {
+            get
+            {
+                return this.korrespondansepartField;
+            }
+            set
+            {
+                this.korrespondansepartField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=19)]
+        public EksternNoekkel referanseEksternNoekkel
+        {
+            get
+            {
+                return this.referanseEksternNoekkelField;
+            }
+            set
+            {
+                this.referanseEksternNoekkelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=20)]
+        public EksternNoekkel referanseMappeEksternNoekkel
+        {
+            get
+            {
+                return this.referanseMappeEksternNoekkelField;
+            }
+            set
+            {
+                this.referanseMappeEksternNoekkelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=21)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Avskrivning[] referanseAvskrivninger
+        {
+            get
+            {
+                return this.referanseAvskrivningerField;
+            }
+            set
+            {
+                this.referanseAvskrivningerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=22)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Merknad[] merknader
+        {
+            get
+            {
+                return this.merknaderField;
+            }
+            set
+            {
+                this.merknaderField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=23)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", IsNullable=false)]
+        public Tilleggsinformasjon[] tilleggsinformasjon
+        {
+            get
+            {
+                return this.tilleggsinformasjonField;
+            }
+            set
+            {
+                this.tilleggsinformasjonField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Journalnummer : Journpostnoekkel
+    {
+        
+        private string journalaarField;
+        
+        private string journalsekvensnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string journalaar
+        {
+            get
+            {
+                return this.journalaarField;
+            }
+            set
+            {
+                this.journalaarField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
+        public string journalsekvensnummer
+        {
+            get
+            {
+                return this.journalsekvensnummerField;
+            }
+            set
+            {
+                this.journalsekvensnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(JournpostSystemID))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(JournpostEksternNoekkel))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Journalnummer))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Dokumentnummer))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Journpostnoekkel
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class JournpostSystemID : Journpostnoekkel
+    {
+        
+        private SystemID systemIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public SystemID systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class SystemID
+    {
+        
+        private string idField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string id
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class JournpostEksternNoekkel : Journpostnoekkel
+    {
+        
+        private EksternNoekkel eksternnoekkelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public EksternNoekkel eksternnoekkel
+        {
+            get
+            {
+                return this.eksternnoekkelField;
+            }
+            set
+            {
+                this.eksternnoekkelField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Dokumentnummer : Journpostnoekkel
+    {
+        
+        private string saksaarField;
+        
+        private string sakssekvensnummerField;
+        
+        private string journalpostnummerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string saksaar
+        {
+            get
+            {
+                return this.saksaarField;
+            }
+            set
+            {
+                this.saksaarField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
+        public string sakssekvensnummer
+        {
+            get
+            {
+                return this.sakssekvensnummerField;
+            }
+            set
+            {
+                this.sakssekvensnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=2)]
+        public string journalpostnummer
+        {
+            get
+            {
+                return this.journalpostnummerField;
+            }
+            set
+            {
+                this.journalpostnummerField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class SakSystemId : Saksnoekkel
+    {
+        
+        private SystemID systemIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public SystemID systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class Avskrivning
+    {
+        
+        private string systemIDField;
+        
+        private System.DateTime avskrivningsdatoField;
+        
+        private bool avskrivningsdatoFieldSpecified;
+        
+        private string avskrevetAvField;
+        
+        private Avskrivningsmaate avskrivningsmaateField;
+        
+        private Journalnummer referanseAvskriverJournalnummerField;
+        
+        private Journalnummer referanseAvskrivesAvJournalnummerField;
+        
+        private EksternNoekkel referanseAvskriverEksternNoekkelField;
+        
+        private EksternNoekkel referanseAvskrivesAvEksternNoekkelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string systemID
+        {
+            get
+            {
+                return this.systemIDField;
+            }
+            set
+            {
+                this.systemIDField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime avskrivningsdato
+        {
+            get
+            {
+                return this.avskrivningsdatoField;
+            }
+            set
+            {
+                this.avskrivningsdatoField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool avskrivningsdatoSpecified
+        {
+            get
+            {
+                return this.avskrivningsdatoFieldSpecified;
+            }
+            set
+            {
+                this.avskrivningsdatoFieldSpecified = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string avskrevetAv
+        {
+            get
+            {
+                return this.avskrevetAvField;
+            }
+            set
+            {
+                this.avskrevetAvField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public Avskrivningsmaate avskrivningsmaate
+        {
+            get
+            {
+                return this.avskrivningsmaateField;
+            }
+            set
+            {
+                this.avskrivningsmaateField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public Journalnummer referanseAvskriverJournalnummer
+        {
+            get
+            {
+                return this.referanseAvskriverJournalnummerField;
+            }
+            set
+            {
+                this.referanseAvskriverJournalnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public Journalnummer referanseAvskrivesAvJournalnummer
+        {
+            get
+            {
+                return this.referanseAvskrivesAvJournalnummerField;
+            }
+            set
+            {
+                this.referanseAvskrivesAvJournalnummerField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public EksternNoekkel referanseAvskriverEksternNoekkel
+        {
+            get
+            {
+                return this.referanseAvskriverEksternNoekkelField;
+            }
+            set
+            {
+                this.referanseAvskriverEksternNoekkelField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public EksternNoekkel referanseAvskrivesAvEksternNoekkel
+        {
+            get
+            {
+                return this.referanseAvskrivesAvEksternNoekkelField;
+            }
+            set
+            {
+                this.referanseAvskrivesAvEksternNoekkelField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PlanKontekst))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MatrikkelKontekst))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ArkivKontekst))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+    public partial class Kontekst
+    {
+        
+        private string spraakField;
+        
+        private string klientnavnField;
+        
+        private string klientversjonField;
+        
+        private string systemversjonField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string spraak
+        {
+            get
+            {
+                return this.spraakField;
+            }
+            set
+            {
+                this.spraakField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string klientnavn
+        {
+            get
+            {
+                return this.klientnavnField;
+            }
+            set
+            {
+                this.klientnavnField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string klientversjon
+        {
+            get
+            {
+                return this.klientversjonField;
+            }
+            set
+            {
+                this.klientversjonField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string systemversjon
+        {
+            get
+            {
+                return this.systemversjonField;
+            }
+            set
+            {
+                this.systemversjonField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+    public partial class PlanKontekst : Kontekst
+    {
+        
+        private KoordinatsystemKode koordinatsystemField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public KoordinatsystemKode koordinatsystem
+        {
+            get
+            {
+                return this.koordinatsystemField;
+            }
+            set
+            {
+                this.koordinatsystemField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+    public partial class MatrikkelKontekst : Kontekst
+    {
+        
+        private KoordinatsystemKode koordinatsystemField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public KoordinatsystemKode koordinatsystem
+        {
+            get
+            {
+                return this.koordinatsystemField;
+            }
+            set
+            {
+                this.koordinatsystemField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31")]
+    public partial class ArkivKontekst : Kontekst
+    {
+        
+        private KoordinatsystemKode koordinatsystemField;
+        
+        private string referanseoppsettField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public KoordinatsystemKode koordinatsystem
+        {
+            get
+            {
+                return this.koordinatsystemField;
+            }
+            set
+            {
+                this.koordinatsystemField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string referanseoppsett
+        {
+            get
+            {
+                return this.referanseoppsettField;
+            }
+            set
+            {
+                this.referanseoppsettField = value;
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.0.30319.1")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31")]
+    public partial class SakEksternNoekkel : Saksnoekkel
+    {
+        
+        private EksternNoekkel eksternnoekkelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public EksternNoekkel eksternnoekkel
+        {
+            get
+            {
+                return this.eksternnoekkelField;
+            }
+            set
+            {
+                this.eksternnoekkelField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettSaksmappeTilleggsinformasjon
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettSaksmappeTilleggsinformasjon()
+        {
+        }
+        
+        public SlettSaksmappeTilleggsinformasjon(string[] systemID, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettSaksmappeTilleggsinformasjonResponse
+    {
+        
+        public SlettSaksmappeTilleggsinformasjonResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettSaksmappeMerknad
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettSaksmappeMerknad()
+        {
+        }
+        
+        public SlettSaksmappeMerknad(string[] systemID, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettSaksmappeMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettSaksmappeMerknadResponse
+    {
+        
+        public SlettSaksmappeMerknadResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettJournalpostTilleggsinformasjon
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettJournalpostTilleggsinformasjon()
+        {
+        }
+        
+        public SlettJournalpostTilleggsinformasjon(string[] systemID, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.journalnokkel = journalnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettJournalpostTilleggsinformasjonResponse
+    {
+        
+        public SlettJournalpostTilleggsinformasjonResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettJournalpostMerknad
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettJournalpostMerknad()
+        {
+        }
+        
+        public SlettJournalpostMerknad(string[] systemID, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.journalnokkel = journalnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettJournalpostMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettJournalpostMerknadResponse
+    {
+        
+        public SlettJournalpostMerknadResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NySaksmappeTilleggsinformasjon
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Tilleggsinformasjon[] tilleggsinfo;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NySaksmappeTilleggsinformasjon()
+        {
+        }
+        
+        public NySaksmappeTilleggsinformasjon(ArkivOppdatering.Tilleggsinformasjon[] tilleggsinfo, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.tilleggsinfo = tilleggsinfo;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NySaksmappeTilleggsinformasjonResponse
+    {
+        
+        public NySaksmappeTilleggsinformasjonResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NySaksmappeMerknad
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Merknad[] merknad;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NySaksmappeMerknad()
+        {
+        }
+        
+        public NySaksmappeMerknad(ArkivOppdatering.Merknad[] merknad, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.merknad = merknad;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NySaksmappeMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NySaksmappeMerknadResponse
+    {
+        
+        public NySaksmappeMerknadResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostTilleggsinformasjon", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyJournalpostTilleggsinformasjon
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Tilleggsinformasjon[] tilleggsinfo;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyJournalpostTilleggsinformasjon()
+        {
+        }
+        
+        public NyJournalpostTilleggsinformasjon(ArkivOppdatering.Tilleggsinformasjon[] tilleggsinfo, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.tilleggsinfo = tilleggsinfo;
+            this.journalnokkel = journalnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostTilleggsinformasjonResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyJournalpostTilleggsinformasjonResponse
+    {
+        
+        public NyJournalpostTilleggsinformasjonResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostMerknad", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyJournalpostMerknad
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Merknad[] merknad;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyJournalpostMerknad()
+        {
+        }
+        
+        public NyJournalpostMerknad(ArkivOppdatering.Merknad[] merknad, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.merknad = merknad;
+            this.journalnokkel = journalnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyJournalpostMerknadResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyJournalpostMerknadResponse
+    {
+        
+        public NyJournalpostMerknadResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettAvskrivning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettAvskrivning
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettAvskrivning()
+        {
+        }
+        
+        public SlettAvskrivning(string[] systemID, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.journalnokkel = journalnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettAvskrivningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettAvskrivningResponse
+    {
+        
+        public SlettAvskrivningResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyAvskrivning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyAvskrivning
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Avskrivning[] avskrivning;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyAvskrivning()
+        {
+        }
+        
+        public NyAvskrivning(ArkivOppdatering.Avskrivning[] avskrivning, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.avskrivning = avskrivning;
+            this.journalnokkel = journalnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyAvskrivningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyAvskrivningResponse
+    {
+        
+        public NyAvskrivningResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettKorrespondansepart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettKorrespondansepart
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalpostnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettKorrespondansepart()
+        {
+        }
+        
+        public SlettKorrespondansepart(string[] systemID, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.journalpostnokkel = journalpostnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettKorrespondansepartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettKorrespondansepartResponse
+    {
+        
+        public SlettKorrespondansepartResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyKorrespondansepart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyKorrespondansepart
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Korrespondansepart[] part;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Journpostnoekkel journalpostnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyKorrespondansepart()
+        {
+        }
+        
+        public NyKorrespondansepart(ArkivOppdatering.Korrespondansepart[] part, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.part = part;
+            this.journalpostnokkel = journalpostnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyKorrespondansepartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyKorrespondansepartResponse
+    {
+        
+        public NyKorrespondansepartResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalposterUnderArbeid", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class FinnJournalposterUnderArbeid
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        public ArkivOppdatering.Ansvarlig ansvarlig;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public bool returnerMerknad;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public bool returnerTilleggsinformasjon;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=3)]
+        public bool returnerKorrespondansepart;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=4)]
+        public bool returnerAvskrivning;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=5)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public FinnJournalposterUnderArbeid()
+        {
+        }
+        
+        public FinnJournalposterUnderArbeid(ArkivOppdatering.Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.ansvarlig = ansvarlig;
+            this.returnerMerknad = returnerMerknad;
+            this.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
+            this.returnerKorrespondansepart = returnerKorrespondansepart;
+            this.returnerAvskrivning = returnerAvskrivning;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalposterUnderArbeidResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class FinnJournalposterUnderArbeidResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Journalpost[] @return;
+        
+        public FinnJournalposterUnderArbeidResponse()
+        {
+        }
+        
+        public FinnJournalposterUnderArbeidResponse(ArkivOppdatering.Journalpost[] @return)
+        {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalpostRestanser", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class FinnJournalpostRestanser
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        public ArkivOppdatering.Ansvarlig ansvarlig;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public bool returnerMerknad;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public bool returnerTilleggsinformasjon;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=3)]
+        public bool returnerKorrespondansepart;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=4)]
+        public bool returnerAvskrivning;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=5)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public FinnJournalpostRestanser()
+        {
+        }
+        
+        public FinnJournalpostRestanser(ArkivOppdatering.Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.ansvarlig = ansvarlig;
+            this.returnerMerknad = returnerMerknad;
+            this.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
+            this.returnerKorrespondansepart = returnerKorrespondansepart;
+            this.returnerAvskrivning = returnerAvskrivning;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="FinnJournalpostRestanserResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class FinnJournalpostRestanserResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Journalpost[] @return;
+        
+        public FinnJournalpostRestanserResponse()
+        {
+        }
+        
+        public FinnJournalpostRestanserResponse(ArkivOppdatering.Journalpost[] @return)
+        {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettSakspart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettSakspart
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Teknisk/xml.schema/2012.01.31", IsNullable=false)]
+        public string[] systemID;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettSakspart()
+        {
+        }
+        
+        public SlettSakspart(string[] systemID, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.systemID = systemID;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettSakspartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettSakspartResponse
+    {
+        
+        public SlettSakspartResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NySakspart", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NySakspart
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Arkiv/Kjerne/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Sakspart[] sakspart;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NySakspart()
+        {
+        }
+        
+        public NySakspart(ArkivOppdatering.Sakspart[] sakspart, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.sakspart = sakspart;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NySakspartResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NySakspartResponse
+    {
+        
+        public NySakspartResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettPunkt", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettPunkt
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Punkt[] posisjon;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettPunkt()
+        {
+        }
+        
+        public SlettPunkt(ArkivOppdatering.Punkt[] posisjon, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.posisjon = posisjon;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettPunktResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettPunktResponse
+    {
+        
+        public SlettPunktResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyPunkt", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyPunkt
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Felles/Geometri/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Punkt[] posisjon;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyPunkt()
+        {
+        }
+        
+        public NyPunkt(ArkivOppdatering.Punkt[] posisjon, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.posisjon = posisjon;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyPunktResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyPunktResponse
+    {
+        
+        public NyPunktResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettBygning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettBygning
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.ByggIdent[] bygninger;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettBygning()
+        {
+        }
+        
+        public SlettBygning(ArkivOppdatering.ByggIdent[] bygninger, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.bygninger = bygninger;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettBygningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettBygningResponse
+    {
+        
+        public SlettBygningResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyBygning", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyBygning
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.ByggIdent[] bygninger;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyBygning()
+        {
+        }
+        
+        public NyBygning(ArkivOppdatering.ByggIdent[] bygninger, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.bygninger = bygninger;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyBygningResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyBygningResponse
+    {
+        
+        public NyBygningResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettMatrikkelnummer", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettMatrikkelnummer
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Matrikkelnummer[] matrikkelnr;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public SlettMatrikkelnummer()
+        {
+        }
+        
+        public SlettMatrikkelnummer(ArkivOppdatering.Matrikkelnummer[] matrikkelnr, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.matrikkelnr = matrikkelnr;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="SlettMatrikkelnummerResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class SlettMatrikkelnummerResponse
+    {
+        
+        public SlettMatrikkelnummerResponse()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyMatrikkelnummer", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyMatrikkelnummer
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("liste", Namespace="http://rep.geointegrasjon.no/Matrikkel/Felles/xml.schema/2012.01.31", IsNullable=false)]
+        public ArkivOppdatering.Matrikkelnummer[] matrikkelnr;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=1)]
+        public ArkivOppdatering.Saksnoekkel saksnokkel;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", Order=2)]
+        public ArkivOppdatering.ArkivKontekst kontekst;
+        
+        public NyMatrikkelnummer()
+        {
+        }
+        
+        public NyMatrikkelnummer(ArkivOppdatering.Matrikkelnummer[] matrikkelnr, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            this.matrikkelnr = matrikkelnr;
+            this.saksnokkel = saksnokkel;
+            this.kontekst = kontekst;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NyMatrikkelnummerResponse", WrapperNamespace="http://rep.geointegrasjon.no/Arkiv/Oppdatering/xml.wsdl/2012.01.31", IsWrapped=true)]
+    public partial class NyMatrikkelnummerResponse
+    {
+        
+        public NyMatrikkelnummerResponse()
+        {
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface SakArkivOppdateringPortChannel : ArkivOppdatering.SakArkivOppdateringPort, System.ServiceModel.IClientChannel
+    {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class SakArkivOppdateringPortClient : System.ServiceModel.ClientBase<ArkivOppdatering.SakArkivOppdateringPort>, ArkivOppdatering.SakArkivOppdateringPort
+    {
+        
+        public SakArkivOppdateringPortClient()
+        {
+        }
+        
+        public SakArkivOppdateringPortClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName)
+        {
+        }
+        
+        public SakArkivOppdateringPortClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress)
+        {
+        }
+        
+        public SakArkivOppdateringPortClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress)
+        {
+        }
+        
+        public SakArkivOppdateringPortClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress)
+        {
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettSaksmappeTilleggsinformasjonResponse ArkivOppdatering.SakArkivOppdateringPort.SlettSaksmappeTilleggsinformasjon(ArkivOppdatering.SlettSaksmappeTilleggsinformasjon request)
+        {
+            return base.Channel.SlettSaksmappeTilleggsinformasjon(request);
+        }
+        
+        public void SlettSaksmappeTilleggsinformasjon(string[] systemID, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettSaksmappeTilleggsinformasjon inValue = new ArkivOppdatering.SlettSaksmappeTilleggsinformasjon();
+            inValue.systemID = systemID;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettSaksmappeTilleggsinformasjonResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettSaksmappeTilleggsinformasjon(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettSaksmappeMerknadResponse ArkivOppdatering.SakArkivOppdateringPort.SlettSaksmappeMerknad(ArkivOppdatering.SlettSaksmappeMerknad request)
+        {
+            return base.Channel.SlettSaksmappeMerknad(request);
+        }
+        
+        public void SlettSaksmappeMerknad(string[] systemID, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettSaksmappeMerknad inValue = new ArkivOppdatering.SlettSaksmappeMerknad();
+            inValue.systemID = systemID;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettSaksmappeMerknadResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettSaksmappeMerknad(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettJournalpostTilleggsinformasjonResponse ArkivOppdatering.SakArkivOppdateringPort.SlettJournalpostTilleggsinformasjon(ArkivOppdatering.SlettJournalpostTilleggsinformasjon request)
+        {
+            return base.Channel.SlettJournalpostTilleggsinformasjon(request);
+        }
+        
+        public void SlettJournalpostTilleggsinformasjon(string[] systemID, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettJournalpostTilleggsinformasjon inValue = new ArkivOppdatering.SlettJournalpostTilleggsinformasjon();
+            inValue.systemID = systemID;
+            inValue.journalnokkel = journalnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettJournalpostTilleggsinformasjonResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettJournalpostTilleggsinformasjon(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettJournalpostMerknadResponse ArkivOppdatering.SakArkivOppdateringPort.SlettJournalpostMerknad(ArkivOppdatering.SlettJournalpostMerknad request)
+        {
+            return base.Channel.SlettJournalpostMerknad(request);
+        }
+        
+        public void SlettJournalpostMerknad(string[] systemID, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettJournalpostMerknad inValue = new ArkivOppdatering.SlettJournalpostMerknad();
+            inValue.systemID = systemID;
+            inValue.journalnokkel = journalnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettJournalpostMerknadResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettJournalpostMerknad(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NySaksmappeTilleggsinformasjonResponse ArkivOppdatering.SakArkivOppdateringPort.NySaksmappeTilleggsinformasjon(ArkivOppdatering.NySaksmappeTilleggsinformasjon request)
+        {
+            return base.Channel.NySaksmappeTilleggsinformasjon(request);
+        }
+        
+        public void NySaksmappeTilleggsinformasjon(ArkivOppdatering.Tilleggsinformasjon[] tilleggsinfo, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NySaksmappeTilleggsinformasjon inValue = new ArkivOppdatering.NySaksmappeTilleggsinformasjon();
+            inValue.tilleggsinfo = tilleggsinfo;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NySaksmappeTilleggsinformasjonResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NySaksmappeTilleggsinformasjon(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NySaksmappeMerknadResponse ArkivOppdatering.SakArkivOppdateringPort.NySaksmappeMerknad(ArkivOppdatering.NySaksmappeMerknad request)
+        {
+            return base.Channel.NySaksmappeMerknad(request);
+        }
+        
+        public void NySaksmappeMerknad(ArkivOppdatering.Merknad[] merknad, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NySaksmappeMerknad inValue = new ArkivOppdatering.NySaksmappeMerknad();
+            inValue.merknad = merknad;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NySaksmappeMerknadResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NySaksmappeMerknad(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyJournalpostTilleggsinformasjonResponse ArkivOppdatering.SakArkivOppdateringPort.NyJournalpostTilleggsinformasjon(ArkivOppdatering.NyJournalpostTilleggsinformasjon request)
+        {
+            return base.Channel.NyJournalpostTilleggsinformasjon(request);
+        }
+        
+        public void NyJournalpostTilleggsinformasjon(ArkivOppdatering.Tilleggsinformasjon[] tilleggsinfo, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyJournalpostTilleggsinformasjon inValue = new ArkivOppdatering.NyJournalpostTilleggsinformasjon();
+            inValue.tilleggsinfo = tilleggsinfo;
+            inValue.journalnokkel = journalnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyJournalpostTilleggsinformasjonResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyJournalpostTilleggsinformasjon(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyJournalpostMerknadResponse ArkivOppdatering.SakArkivOppdateringPort.NyJournalpostMerknad(ArkivOppdatering.NyJournalpostMerknad request)
+        {
+            return base.Channel.NyJournalpostMerknad(request);
+        }
+        
+        public void NyJournalpostMerknad(ArkivOppdatering.Merknad[] merknad, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyJournalpostMerknad inValue = new ArkivOppdatering.NyJournalpostMerknad();
+            inValue.merknad = merknad;
+            inValue.journalnokkel = journalnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyJournalpostMerknadResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyJournalpostMerknad(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettAvskrivningResponse ArkivOppdatering.SakArkivOppdateringPort.SlettAvskrivning(ArkivOppdatering.SlettAvskrivning request)
+        {
+            return base.Channel.SlettAvskrivning(request);
+        }
+        
+        public void SlettAvskrivning(string[] systemID, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettAvskrivning inValue = new ArkivOppdatering.SlettAvskrivning();
+            inValue.systemID = systemID;
+            inValue.journalnokkel = journalnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettAvskrivningResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettAvskrivning(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyAvskrivningResponse ArkivOppdatering.SakArkivOppdateringPort.NyAvskrivning(ArkivOppdatering.NyAvskrivning request)
+        {
+            return base.Channel.NyAvskrivning(request);
+        }
+        
+        public void NyAvskrivning(ArkivOppdatering.Avskrivning[] avskrivning, ArkivOppdatering.Journpostnoekkel journalnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyAvskrivning inValue = new ArkivOppdatering.NyAvskrivning();
+            inValue.avskrivning = avskrivning;
+            inValue.journalnokkel = journalnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyAvskrivningResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyAvskrivning(inValue);
+        }
+        
+        public void OppdaterJournalpostStatus(ArkivOppdatering.Journalstatus journalstatus, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            base.Channel.OppdaterJournalpostStatus(journalstatus, journalpostnokkel, kontekst);
+        }
+        
+        public ArkivOppdatering.Journalpost OppdaterJournalpostEksternNoekkel(ArkivOppdatering.EksternNoekkel nokkel, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.OppdaterJournalpostEksternNoekkel(nokkel, journalpostnokkel, kontekst);
+        }
+        
+        public ArkivOppdatering.Dokument NyDokument(ArkivOppdatering.Dokument dokument, bool returnerFil, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.NyDokument(dokument, returnerFil, kontekst);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettKorrespondansepartResponse ArkivOppdatering.SakArkivOppdateringPort.SlettKorrespondansepart(ArkivOppdatering.SlettKorrespondansepart request)
+        {
+            return base.Channel.SlettKorrespondansepart(request);
+        }
+        
+        public void SlettKorrespondansepart(string[] systemID, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettKorrespondansepart inValue = new ArkivOppdatering.SlettKorrespondansepart();
+            inValue.systemID = systemID;
+            inValue.journalpostnokkel = journalpostnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettKorrespondansepartResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettKorrespondansepart(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyKorrespondansepartResponse ArkivOppdatering.SakArkivOppdateringPort.NyKorrespondansepart(ArkivOppdatering.NyKorrespondansepart request)
+        {
+            return base.Channel.NyKorrespondansepart(request);
+        }
+        
+        public void NyKorrespondansepart(ArkivOppdatering.Korrespondansepart[] part, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyKorrespondansepart inValue = new ArkivOppdatering.NyKorrespondansepart();
+            inValue.part = part;
+            inValue.journalpostnokkel = journalpostnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyKorrespondansepartResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyKorrespondansepart(inValue);
+        }
+        
+        public ArkivOppdatering.Journalpost OppdaterJournalpostAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, ArkivOppdatering.Journpostnoekkel journalpostnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.OppdaterJournalpostAnsvarlig(nyAdministrativEnhetKode, nySaksbehandlerInit, journalpostnokkel, kontekst);
+        }
+        
+        public ArkivOppdatering.Journalpost NyJournalpost(ArkivOppdatering.Journalpost journalpost, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.NyJournalpost(journalpost, kontekst);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.FinnJournalposterUnderArbeidResponse ArkivOppdatering.SakArkivOppdateringPort.FinnJournalposterUnderArbeid(ArkivOppdatering.FinnJournalposterUnderArbeid request)
+        {
+            return base.Channel.FinnJournalposterUnderArbeid(request);
+        }
+        
+        public ArkivOppdatering.Journalpost[] FinnJournalposterUnderArbeid(ArkivOppdatering.Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.FinnJournalposterUnderArbeid inValue = new ArkivOppdatering.FinnJournalposterUnderArbeid();
+            inValue.ansvarlig = ansvarlig;
+            inValue.returnerMerknad = returnerMerknad;
+            inValue.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
+            inValue.returnerKorrespondansepart = returnerKorrespondansepart;
+            inValue.returnerAvskrivning = returnerAvskrivning;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.FinnJournalposterUnderArbeidResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).FinnJournalposterUnderArbeid(inValue);
+            return retVal.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.FinnJournalpostRestanserResponse ArkivOppdatering.SakArkivOppdateringPort.FinnJournalpostRestanser(ArkivOppdatering.FinnJournalpostRestanser request)
+        {
+            return base.Channel.FinnJournalpostRestanser(request);
+        }
+        
+        public ArkivOppdatering.Journalpost[] FinnJournalpostRestanser(ArkivOppdatering.Ansvarlig ansvarlig, bool returnerMerknad, bool returnerTilleggsinformasjon, bool returnerKorrespondansepart, bool returnerAvskrivning, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.FinnJournalpostRestanser inValue = new ArkivOppdatering.FinnJournalpostRestanser();
+            inValue.ansvarlig = ansvarlig;
+            inValue.returnerMerknad = returnerMerknad;
+            inValue.returnerTilleggsinformasjon = returnerTilleggsinformasjon;
+            inValue.returnerKorrespondansepart = returnerKorrespondansepart;
+            inValue.returnerAvskrivning = returnerAvskrivning;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.FinnJournalpostRestanserResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).FinnJournalpostRestanser(inValue);
+            return retVal.@return;
+        }
+        
+        public void OppdaterPlan(ArkivOppdatering.NasjonalArealplanId planid, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            base.Channel.OppdaterPlan(planid, saksnokkel, kontekst);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettSakspartResponse ArkivOppdatering.SakArkivOppdateringPort.SlettSakspart(ArkivOppdatering.SlettSakspart request)
+        {
+            return base.Channel.SlettSakspart(request);
+        }
+        
+        public void SlettSakspart(string[] systemID, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettSakspart inValue = new ArkivOppdatering.SlettSakspart();
+            inValue.systemID = systemID;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettSakspartResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettSakspart(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NySakspartResponse ArkivOppdatering.SakArkivOppdateringPort.NySakspart(ArkivOppdatering.NySakspart request)
+        {
+            return base.Channel.NySakspart(request);
+        }
+        
+        public void NySakspart(ArkivOppdatering.Sakspart[] sakspart, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NySakspart inValue = new ArkivOppdatering.NySakspart();
+            inValue.sakspart = sakspart;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NySakspartResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NySakspart(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettPunktResponse ArkivOppdatering.SakArkivOppdateringPort.SlettPunkt(ArkivOppdatering.SlettPunkt request)
+        {
+            return base.Channel.SlettPunkt(request);
+        }
+        
+        public void SlettPunkt(ArkivOppdatering.Punkt[] posisjon, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettPunkt inValue = new ArkivOppdatering.SlettPunkt();
+            inValue.posisjon = posisjon;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettPunktResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettPunkt(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyPunktResponse ArkivOppdatering.SakArkivOppdateringPort.NyPunkt(ArkivOppdatering.NyPunkt request)
+        {
+            return base.Channel.NyPunkt(request);
+        }
+        
+        public void NyPunkt(ArkivOppdatering.Punkt[] posisjon, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyPunkt inValue = new ArkivOppdatering.NyPunkt();
+            inValue.posisjon = posisjon;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyPunktResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyPunkt(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettBygningResponse ArkivOppdatering.SakArkivOppdateringPort.SlettBygning(ArkivOppdatering.SlettBygning request)
+        {
+            return base.Channel.SlettBygning(request);
+        }
+        
+        public void SlettBygning(ArkivOppdatering.ByggIdent[] bygninger, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettBygning inValue = new ArkivOppdatering.SlettBygning();
+            inValue.bygninger = bygninger;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettBygningResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettBygning(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyBygningResponse ArkivOppdatering.SakArkivOppdateringPort.NyBygning(ArkivOppdatering.NyBygning request)
+        {
+            return base.Channel.NyBygning(request);
+        }
+        
+        public void NyBygning(ArkivOppdatering.ByggIdent[] bygninger, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyBygning inValue = new ArkivOppdatering.NyBygning();
+            inValue.bygninger = bygninger;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyBygningResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyBygning(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.SlettMatrikkelnummerResponse ArkivOppdatering.SakArkivOppdateringPort.SlettMatrikkelnummer(ArkivOppdatering.SlettMatrikkelnummer request)
+        {
+            return base.Channel.SlettMatrikkelnummer(request);
+        }
+        
+        public void SlettMatrikkelnummer(ArkivOppdatering.Matrikkelnummer[] matrikkelnr, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.SlettMatrikkelnummer inValue = new ArkivOppdatering.SlettMatrikkelnummer();
+            inValue.matrikkelnr = matrikkelnr;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.SlettMatrikkelnummerResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).SlettMatrikkelnummer(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ArkivOppdatering.NyMatrikkelnummerResponse ArkivOppdatering.SakArkivOppdateringPort.NyMatrikkelnummer(ArkivOppdatering.NyMatrikkelnummer request)
+        {
+            return base.Channel.NyMatrikkelnummer(request);
+        }
+        
+        public void NyMatrikkelnummer(ArkivOppdatering.Matrikkelnummer[] matrikkelnr, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            ArkivOppdatering.NyMatrikkelnummer inValue = new ArkivOppdatering.NyMatrikkelnummer();
+            inValue.matrikkelnr = matrikkelnr;
+            inValue.saksnokkel = saksnokkel;
+            inValue.kontekst = kontekst;
+            ArkivOppdatering.NyMatrikkelnummerResponse retVal = ((ArkivOppdatering.SakArkivOppdateringPort)(this)).NyMatrikkelnummer(inValue);
+        }
+        
+        public ArkivOppdatering.Saksmappe OppdaterMappeAnsvarlig(string nyAdministrativEnhetKode, string nySaksbehandlerInit, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.OppdaterMappeAnsvarlig(nyAdministrativEnhetKode, nySaksbehandlerInit, saksnokkel, kontekst);
+        }
+        
+        public ArkivOppdatering.Saksmappe OppdaterMappeEksternNoekkel(ArkivOppdatering.EksternNoekkel nokkel, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.OppdaterMappeEksternNoekkel(nokkel, saksnokkel, kontekst);
+        }
+        
+        public ArkivOppdatering.Saksmappe OppdaterMappeStatus(ArkivOppdatering.Saksstatus saksstatuskode, ArkivOppdatering.Saksnoekkel saksnokkel, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.OppdaterMappeStatus(saksstatuskode, saksnokkel, kontekst);
+        }
+        
+        public ArkivOppdatering.Saksmappe NySaksmappe(ArkivOppdatering.Saksmappe mappe, ArkivOppdatering.ArkivKontekst kontekst)
+        {
+            return base.Channel.NySaksmappe(mappe, kontekst);
+        }
     }
 }
